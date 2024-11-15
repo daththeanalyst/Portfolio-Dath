@@ -1,12 +1,12 @@
 :root {
-	--primary-bg: #f9bf3f; /* Main background color */
-	--secondary-bg: #ffffff; /* Secondary background color */
-	--primary-color: #000000; /* Text color */
-	--secondary-color: #ffffff; /* Secondary text color */
-	--highlight-color: #2c98f0; /* Highlight or link colors */
-	--footer-bg: #f9bf3f; /* Footer background color */
-	--input-border: #3a456a; /* Border color for inputs */
+    	--primary-bg: #003f5c; /* Midnight Blue */
+    	--secondary-bg: #ffffff; /* Optional: White for contrast */
+    	--primary-color: #ffffff; /* White text for readability */
+    	--secondary-color: #76c893; /* Neon Mint */
+    	--highlight-color: #76c893; /* Neon Mint for highlights */
+    	--footer-bg: #003f5c; /* Midnight Blue */
 }
+
 
 @font-face {
 	font-family: "icomoon";
