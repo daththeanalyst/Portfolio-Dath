@@ -31,7 +31,7 @@ body {
 	font-size: 15px;
 	line-height: 1.8;
 	color: #ffffff; /* White text */
-    	background-color: #4a4e69; /* Steel Gray */
+    	background-color: #E7E8D1; /* Steel Gray */
 }
 @media screen and (max-width: 992px) {
 	body {
@@ -44,7 +44,7 @@ body {
 }
 
 a {
-	color: #a8e6cf; /* Lime Green */
+	color: #B85042; /* Terracotta Red for links */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -73,12 +73,15 @@ h6 {
 	font-family: "Playfair Display", Georgia, serif;
 	font-weight: 400;
 	margin: 0 0 30px 0;
+	color: #B85042; /* Updated to Terracotta Red for headings */
 }
 
 h2 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 200;
 	margin: 0 0 20px 0;
+	color: #A7BEAE; /* Muted Teal for H2 headers */
+
 }
 h3 {
 	font-family: "Playfair Display", Georgia, serif;
@@ -267,6 +270,8 @@ figure figcaption {
 #colorlib-aside #colorlib-main-menu ul li a:hover {
 	text-decoration: none;
     	color: #ffffff; /* White on hover */
+	background-color: #B85042; /* Background turns to Terracotta Red on hover */
+
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover:after {
 	visibility: visible;
@@ -279,6 +284,8 @@ figure figcaption {
 #colorlib-aside #colorlib-main-menu ul li.active a {
 	font-size: 15px;
 	font-weight: 600;
+	color: #B85042; /* Terracotta Red for active menu items */
+
 }
 #colorlib-aside #colorlib-main-menu ul li.active a:after {
 	visibility: visible;
@@ -1668,15 +1675,15 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .btn-primary {
-	background: #2c98f0;
+	background: #B85042;
 	color: #fff;
-	border: 2px solid #2c98f0;
+	border: 2px solid #B85042;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background: #44a4f2 !important;
-	border-color: #44a4f2 !important;
+	background: #A7BEAE  !important;
+	border-color: #A7BEAE  !important;
 }
 .btn-primary.btn-outline {
 	background: transparent;
