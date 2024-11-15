@@ -176,6 +176,7 @@ populateBio(bio, "bio");
 populateSkills(skills, "skills");
 populateCertifications(certifications, "certifications");
 populateProjects(webProjects, "web-projects");
+populateProjects(softwareProjects, "software-projects");
 populateExp_Edu(experience, "experience");
 populateExp_Edu(education, "education");
 populateLinks(footer, "footer");
