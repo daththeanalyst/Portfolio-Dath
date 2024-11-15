@@ -155,8 +155,8 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background-color: var(--primary-bg); /* Yellow background */
-    	color: var(--primary-color); /* Black text */
+	background-color: var(--primary-bg); /* Midnight Blue */
+   	color: var(--primary-color); /* White text */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -170,7 +170,7 @@ figure figcaption {
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-    		background-color: var(--primary-color); /* Links in the sidebar become black */
+    		color: var(--secondary-color); /* Neon Mint links */
 		height: auto;
 	}
 	.resume-content img {
@@ -1646,7 +1646,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .colorlib-bg-color {
-	background: #fafafa;
+	background-color: var(--primary-bg); /* Midnight Blue */
 	position: relative;
 }
 
