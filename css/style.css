@@ -36,9 +36,17 @@
 *
 * ======================================================= */
 body {
-    background-color: var(--secondary-bg); /* White background */
-    color: var(--primary-color); /* Black text */
+    background-color: var(--primary-bg); /* Midnight Blue background */
+    color: var(--primary-color); /* White text */
     font-family: "Quicksand", Arial, sans-serif;
+}
+
+a {
+    color: var(--secondary-color); /* Neon Mint links */
+}
+
+a:hover {
+    color: var(--primary-color); /* White text on hover */
 }
 
 @media screen and (max-width: 992px) {
