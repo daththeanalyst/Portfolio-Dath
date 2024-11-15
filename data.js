@@ -36,7 +36,29 @@ export const skills = [
     percentage: "50",
   },
 ];
+export const certifications = [
+  {
+    title: "Google Advanced Data Analytics",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/4JMQXA2VUMEJ",
+  },
+  {
+    title: "Microsoft Power BI Desktop",
+    link: "https://www.udemy.com/certificate/UC-6a440cdc-fae6-4148-87ca-d9da7671993c/",
+  },
+  {
+    title: "IBM Data Analyst",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/H7Y9DHUXNFY5",
+  },
+  {
+    title: "Google Data Analytics",
+    link: "https://www.credly.com/badges/7a1394e2-1698-4b9e-9d28-26b58d1e3c79/linked_in_profile",
+  },
 
+  {
+    title: "Mathematics for Machine Learning Specialisation – Imperial College",
+    link: "https://www.coursera.org/account/accomplishments/specialization/4W0TT9EK791M",
+  },
+];
 export const projects = {
   webProjects: [
     {
@@ -145,29 +167,7 @@ export const education = [
   },
 ];
 
-export const certifications = [
-  {
-    title: "Google Advanced Data Analytics",
-    link: "https://www.coursera.org/account/accomplishments/professional-cert/4JMQXA2VUMEJ",
-  },
-  {
-    title: "Microsoft Power BI Desktop",
-    link: "https://www.udemy.com/certificate/UC-6a440cdc-fae6-4148-87ca-d9da7671993c/",
-  },
-  {
-    title: "IBM Data Analyst",
-    link: "https://www.coursera.org/account/accomplishments/professional-cert/H7Y9DHUXNFY5",
-  },
-  {
-    title: "Google Data Analytics",
-    link: "https://www.credly.com/badges/7a1394e2-1698-4b9e-9d28-26b58d1e3c79/linked_in_profile",
-  },
 
-  {
-    title: "Mathematics for Machine Learning Specialisation – Imperial College",
-    link: "https://www.coursera.org/account/accomplishments/specialization/4W0TT9EK791M",
-  },
-];
 
 export const footer = [
   {
