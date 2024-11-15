@@ -84,56 +84,75 @@ function populateCertifications(items, id) {
  * @param {string} id - The target HTML element ID.
  */
 function populateProjects(items, id) {
-  const projectDesign = document.getElementById(id);
-  if (!projectDesign) return;
-
-  items.forEach(({ projectName, preview, image, summary, techStack }) => {
-    const li = document.createElement("li");
-
-    // Create the toggle link (to expand/collapse the project details)
-    const link = document.createElement("div");
-    link.className = "link";
-    link.innerHTML = `
-      <p>${projectName}</p>
-      <i class="fa fa-chevron-down"></i>
-    `;
-
-    // Create the submenu to hold the project details
-    const submenu = document.createElement("ul");
-    submenu.className = "submenu";
-    submenu.style.display = "none"; // Initially hidden
-
-    // Create the project card inside the submenu
-    const a = document.createElement("a");
-    a.href = preview;
-    a.target = "_blank"; // Open in new tab
-    a.innerHTML = `
-      <div class="project-card">
-        <img src="${image}" class="img-fluid" alt="${projectName}">
-        <p class="project-description">${summary}</p>
-        <div class="tech-stack">${techStack
-          .map((tech) => `<span class="badge badge-secondary">${tech}</span>`)
-          .join("")}</div>
-      </div>
-    `;
-    submenu.appendChild(a);
-
-    // Append link and submenu to the list item
-    li.appendChild(link);
-    li.appendChild(submenu);
-
-    // Add click event for toggling the submenu
-    link.addEventListener("click", () => {
-      const isVisible = submenu.style.display === "block";
-      submenu.style.display = isVisible ? "none" : "block";
-      link.querySelector("i").className = isVisible
-        ? "fa fa-chevron-down"
-        : "fa fa-chevron-up"; // Change icon
-    });
-
-    projectDesign.appendChild(li);
-  });
-}
+    let projectdesign = document.getElementById(id);
+  
+    let h4 = document.createElement("h4");
+    h4.className = "project-heading";
+  
+    let a = document.createElement("a");
+    a.target = "_blank";
+  
+    let img = document.createElement("img");
+    img.className = "img-fluid";
+  
+    let divResumeContentLeft = document.createElement("div");
+    divResumeContentLeft.className = "resume-content";
+    divResumeContentLeft.id = "left-div";
+    divResumeContentLeft.append(img);
+  
+    let divResumeContentRight = document.createElement("div");
+    divResumeContentRight.className = "resume-content";
+    divResumeContentRight.id = "right-div";
+  
+    let p = document.createElement("p");
+    p.className = "project-description";
+  
+    let divSpan = document.createElement("div");
+  
+    let divSubHeading = document.createElement("div");
+    divSubHeading.className = "sub-heading";
+    divSubHeading.append(p);
+    divSubHeading.append(divSpan);
+    divResumeContentRight.append(divSubHeading);
+  
+    let divResumeItem = document.createElement("div");
+    divResumeItem.className = "resume-item";
+    divResumeItem.append(divResumeContentLeft);
+    divResumeItem.append(divResumeContentRight);
+    a.append(divResumeItem);
+  
+    let divProjectCard = document.createElement("div");
+    divProjectCard.className = "project-card";
+    divProjectCard.append(a);
+  
+    let li = document.createElement("li");
+    li.append(divProjectCard);
+  
+    let hr = document.createElement("hr");
+  
+    for (let i = 0; i < items.length; i++) {
+      h4.innerHTML = items[i].projectName;
+      a.href = items[i].preview;
+  
+      img.src = items[i].image;
+  
+      p.innerHTML = items[i].summary;
+  
+      divSpan.innerHTML = "";
+      for (let k = 0; k < items[i].techStack.length; k++) {
+        let span = document.createElement("span");
+        span.className = "badge badge-secondary";
+        span.innerHTML = items[i].techStack[k];
+        divSpan.append(span);
+      }
+  
+      projectdesign.append(li.cloneNode(true));
+  
+      if (i != items.length - 1) {
+        projectdesign.append(hr.cloneNode(true));
+      }
+    }
+  }
 
 
 /**
