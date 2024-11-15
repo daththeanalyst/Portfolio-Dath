@@ -36,12 +36,11 @@
 *
 * ======================================================= */
 body {
-	font-family: "Quicksand", Arial, sans-serif;
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 1.8;
-	color: black;
+    background-color: var(--secondary-bg); /* White background */
+    color: var(--primary-color); /* Black text */
+    font-family: "Quicksand", Arial, sans-serif;
 }
+
 @media screen and (max-width: 992px) {
 	body {
 		font-size: 16px;
@@ -148,7 +147,8 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background-color: #f9bf3f;
+	background-color: var(--primary-bg); /* Yellow background */
+    	color: var(--primary-color); /* Black text */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -162,7 +162,7 @@ figure figcaption {
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-		background-color: #f9bf3f;
+    		background-color: var(--primary-color); /* Links in the sidebar become black */
 		height: auto;
 	}
 	.resume-content img {
