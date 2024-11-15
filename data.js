@@ -21,7 +21,7 @@ export const skills = [
     title: "Data Analysis",
     skillName: "Data Cleaning, Statistical Analysis",
     color: "6",
-    percentage: "85",
+    percentage: "70",
   },
   {
     title: "Software/Tools",
@@ -40,6 +40,8 @@ export const certifications = [
   {
     title: "Google Advanced Data Analytics",
     link: "https://www.coursera.org/account/accomplishments/professional-cert/4JMQXA2VUMEJ",
+    summary:
+        "blabla.",
   },
   {
     title: "Microsoft Power BI Desktop",
