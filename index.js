@@ -9,10 +9,9 @@ import {
 
 import { URLs } from './user-data/urls.js';
   
-  const { webProjects, softwareProjects, androidProjects, freelanceProjects } =
+  const { webProjects } =
     projects;
-  const { medium, gitConnected } = URLs;
-  
+    
   /**
    * Fetches blogs from Medium profile.
    *
@@ -24,32 +23,7 @@ import { URLs } from './user-data/urls.js';
    * @returns {void}
    */
   
-  async function fetchBlogsFromMedium(url) {
-    try {
-      const response = await fetch(url);
-      const { items } = await response.json();
-      populateBlogs(items, "blogs");
-    } catch (error) {
-      throw new Error(
-        `Error in fetching the blogs from Medium profile: ${error}`
-      );
-    }
-  }
-
-
-  async function fetchGitConnectedData(url) {
-    try {
-      const response = await fetch(url);
-      console.log(response);
-      const { basics } = await response.json();
-      // populateBlogs(items, "blogs");
-      mapBasicResponse(basics);
-    } catch (error) {
-      throw new Error(
-        `Error in fetching the blogs from git connected: ${error}`
-      );
-    }
-  }
+   
 
   function mapBasicResponse(basics) {
     const {
@@ -62,7 +36,7 @@ import { URLs } from './user-data/urls.js';
       summary,
       profiles,
       headline,
-      blog,
+      certifications,
       yearsOfExperience,
       username,
       locationAsString,
@@ -442,12 +416,10 @@ populateCertifications(certifications, "certifications");
   fetchGitConnectedData(gitConnected);
   
   populateProjects(webProjects, "web-projects");
-  populateProjects(softwareProjects, "software-projects");
-  populateProjects(androidProjects, "android-projects");
-  populateProjects(freelanceProjects, "freelance-projects");
+ 
   
   populateExp_Edu(experience, "experience");
   populateExp_Edu(education, "education");
-  
+
   populateLinks(footer, "footer");
   
