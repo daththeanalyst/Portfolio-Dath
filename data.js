@@ -70,6 +70,16 @@ export const projects = {
       techStack: ["Python", "SQL", "Power BI", "Pandas", "NumPy"],
     },
     {
+      projectName: "Data Cleaning Project SQL",
+      image: "images/data-cleaning.png",
+      summary:
+        "Cleaned and standardized datasets, removing duplicates and preparing data for analysis.",
+      preview: "https://github.com/daththeanalyst/data-cleaning-sql", // GitHub link
+      techStack: ["SQL", "Data Cleaning"],
+    },
+  ],
+  softwareProjects: [
+        {
       projectName: "Churn Prediction Model",
       image: "images/churn-prediction.png",
       summary:
@@ -84,14 +94,6 @@ export const projects = {
         "Developed a Python-based tool to scrape Amazon product data, track prices, and send alerts for price drops.",
       preview: "https://github.com/daththeanalyst/amazon-web-scraping", // GitHub link
       techStack: ["Python", "BeautifulSoup", "Requests", "Pandas"],
-    },
-    {
-      projectName: "Data Cleaning Project SQL",
-      image: "images/data-cleaning.png",
-      summary:
-        "Cleaned and standardized datasets, removing duplicates and preparing data for analysis.",
-      preview: "https://github.com/daththeanalyst/data-cleaning-sql", // GitHub link
-      techStack: ["SQL", "Data Cleaning"],
     },
   ],
 };
