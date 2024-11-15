@@ -44,7 +44,7 @@ export const projects = {
       image: "images/cargo-ship.png",
       summary:
         "Analyzed tanker movements using AIS data to optimize shipping routes, improve fuel efficiency, assess port performance, and develop a predictive model for ETA.",
-      preview: "#",
+      preview: "https://github.com/daththeanalyst/cargo-ship-project", // GitHub link
       techStack: ["Python", "SQL", "Power BI", "Pandas", "NumPy"],
     },
     {
@@ -52,7 +52,7 @@ export const projects = {
       image: "images/churn-prediction.png",
       summary:
         "Built a churn prediction model to identify customers likely to leave, leveraging machine learning and advanced data analysis techniques.",
-      preview: "#",
+      preview: "https://github.com/daththeanalyst/churn-prediction-model", // GitHub link
       techStack: ["Python", "Matplotlib", "Seaborn", "Scikit-learn"],
     },
     {
@@ -60,7 +60,7 @@ export const projects = {
       image: "images/web-scraping.png",
       summary:
         "Developed a Python-based tool to scrape Amazon product data, track prices, and send alerts for price drops.",
-      preview: "#",
+      preview: "https://github.com/daththeanalyst/amazon-web-scraping", // GitHub link
       techStack: ["Python", "BeautifulSoup", "Requests", "Pandas"],
     },
     {
@@ -68,7 +68,7 @@ export const projects = {
       image: "images/data-cleaning.png",
       summary:
         "Cleaned and standardized datasets, removing duplicates and preparing data for analysis.",
-      preview: "#",
+      preview: "https://github.com/daththeanalyst/data-cleaning-sql", // GitHub link
       techStack: ["SQL", "Data Cleaning"],
     },
   ],
