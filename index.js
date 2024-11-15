@@ -59,19 +59,24 @@ function populateSkills(items, id) {
  * @param {string} id - The target HTML element ID.
  */
 function populateCertifications(items, id) {
-  const certificationsTag = document.getElementById(id);
-  if (!certificationsTag || !items || items.length === 0) return;
+  if (!Array.isArray(items)) {
+    console.error("Certifications data is not an array:", items);
+    return;
+  }
 
+  const certificationsTag = document.getElementById(id);
   items.forEach(({ title, link }) => {
     const li = document.createElement("li");
     const a = document.createElement("a");
     a.href = link;
-    a.target = "_blank"; // Open link in a new tab
+    a.target = "_blank"; // Opens link in a new tab
     a.textContent = title;
+
     li.appendChild(a);
     certificationsTag.appendChild(li);
   });
 }
+
 
 /**
  * Populates projects to the HTML page.
