@@ -144,6 +144,28 @@ export const experience = [
     tags: ["Communication", "Customer Support"],
     icon: "phone",
   },
+  {
+    title: "Globassure Insurance Agents, Athens, Greece",
+    duration: "June 2022 - August 2022",
+    subtitle: "Data Ops Analyst",
+    details: [
+      "Processed 3,000+ data entries and digitized records, eliminating bottlenecks and elevating productivity by 20%.",
+      "Performed data scraping to collect data on potential clientele, organizing the information in Excel for targeted outreach, resulting in acquiring 5 client businesses for employee insurance coverage.",
+    ],
+    tags: ["Data Entry", "Excel", "Data Scraping"],
+    icon: "briefcase",
+  },
+  {
+    title: "Lamda Helix Data Centre, Athens, Greece",
+    duration: "June 2020 - August 2020",
+    subtitle: "Data Engineer Shadow",
+    details: [
+      "Collaborated with data engineers to optimize data center operations, enhancing data storage, security, and efficiency while developing technical expertise.",
+    ],
+    tags: ["Data Center Operations", "Data Storage", "Technical Expertise"],
+    icon: "server",
+  },
+];
 ];
 
 export const education = [
