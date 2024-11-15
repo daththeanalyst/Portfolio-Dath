@@ -2261,4 +2261,207 @@ span {
     text-align: right;
     font-weight: 600;
 }
-  
+:root {
+    --primary-bg: #F5F5F5; /* Light Gray */
+    --secondary-bg: #FFFFFF; /* White */
+    --primary-color: #333333; /* Charcoal */
+    --secondary-color: #4A90E2; /* Soft Blue */
+    --highlight-color: #FFFFFF; /* White */
+    --footer-bg: #F5F5F5; /* Light Gray */
+}
+
+@font-face {
+    font-family: "icomoon";
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+    src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix")
+            format("embedded-opentype"),
+        url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"),
+        url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"),
+        url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--primary-bg); /* Light Gray */
+    color: var(--primary-color); /* Charcoal */
+    font-family: "Quicksand", Arial, sans-serif;
+}
+
+a {
+    color: var(--secondary-color); /* Soft Blue */
+}
+
+a:hover {
+    color: var(--primary-color); /* Charcoal */
+}
+
+h1, h5, h6 {
+    font-family: "Playfair Display", Georgia, serif;
+    font-weight: 400;
+    margin: 0 0 30px 0;
+    color: var(--primary-color); /* Charcoal */
+}
+
+h2, h3, h4 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200;
+    margin: 0 0 20px 0;
+    color: var(--primary-color); /* Charcoal */
+}
+
+p {
+    margin-bottom: 1.5em;
+    font-family: "Montserrat", sans-serif;
+    color: var(--primary-color); /* Charcoal */
+}
+
+#colorlib-aside {
+    padding-top: 3em;
+    padding-bottom: 1px;
+    float: left;
+    width: 300px;
+    position: fixed;
+    z-index: 1001;
+    background-color: var(--primary-bg); /* Light Gray */
+    color: var(--primary-color); /* Charcoal */
+}
+
+#colorlib-main {
+    width: calc(100% - 300px);
+    float: right;
+    background-color: var(--primary-bg); /* Light Gray */
+}
+
+.project {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+    background: var(--highlight-color); /* White */
+    border-radius: 4px;
+    color: var(--primary-color); /* Charcoal */
+}
+
+.project-info h3 {
+    font-size: 1.5em;
+    font-weight: 300;
+    color: var(--primary-color); /* Charcoal */
+    margin: 0 0 15px 0;
+}
+
+.project-info p {
+    color: var(--secondary-color); /* Soft Blue */
+    margin: 0 0 15px 0;
+    font-size: 0.9em;
+}
+
+footer {
+    background-color: var(--footer-bg); /* Light Gray */
+    color: var(--primary-color); /* Charcoal */
+    padding: 2em 4em;
+    font-size: 13px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+footer a {
+    color: var(--secondary-color); /* Soft Blue */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.btn-primary {
+    background: var(--secondary-color); /* Soft Blue */
+    color: var(--highlight-color); /* White */
+    border: 2px solid var(--secondary-color); /* Soft Blue */
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background: #367ABD; /* Slightly darker Soft Blue */
+    border-color: #367ABD; /* Match hover color */
+}
+
+.timeline-centered .timeline-label {
+    background: var(--secondary-bg); /* White */
+    color: var(--primary-color); /* Charcoal */
+    padding: 1.5em;
+    margin-left: 60px;
+    border-radius: 4px;
+}
+
+.timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background: var(--secondary-color); /* Soft Blue */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: var(--highlight-color); /* White */
+}
+
+.accordion {
+    background: var(--secondary-bg); /* White */
+    color: var(--primary-color); /* Charcoal */
+    border-radius: 4px;
+}
+
+.accordion .link {
+    color: var(--secondary-color); /* Soft Blue */
+    font-weight: 700;
+    padding: 15px;
+    border-bottom: 1px solid var(--primary-color); /* Charcoal */
+}
+
+.accordion li i {
+    color: var(--primary-color); /* Charcoal */
+}
+
+.progress-bar {
+    background: var(--secondary-color); /* Soft Blue */
+    height: 6px;
+    border-radius: 8px;
+}
+
+.progress-bar:after {
+    background: var(--secondary-color); /* Soft Blue */
+}
+
+.services {
+    margin-bottom: 30px;
+    padding: 1.5em;
+    background: var(--secondary-bg); /* White */
+    border: 2px solid var(--secondary-color); /* Soft Blue */
+}
+
+.services .icon2 i {
+    font-size: 30px;
+    color: var(--secondary-color); /* Soft Blue */
+}
+
+.services h3 {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color); /* Charcoal */
+}
+
+.colorlib-footer {
+    background-color: var(--footer-bg); /* Light Gray */
+    color: var(--primary-color); /* Charcoal */
+}
+
+.colorlib-footer ul li a:hover {
+    color: var(--secondary-color); /* Soft Blue */
+}
+
