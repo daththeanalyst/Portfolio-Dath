@@ -87,7 +87,7 @@ function populateCertifications(items, id) {
  * @param {Array} items - An array of project objects.
  * @param {string} id - The target HTML element ID.
  */
-function populateProjects(items, id) {
+ function populateProjects(items, id) {
     let projectdesign = document.getElementById(id);
   
     let h4 = document.createElement("h4");
