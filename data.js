@@ -148,27 +148,27 @@ export const education = [
 export const certifications = [
   {
     title: "Google Advanced Data Analytics",
-    link: "#",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/4JMQXA2VUMEJ",
   },
   {
     title: "Microsoft Power BI Desktop",
-    link: "#",
+    link: "https://www.udemy.com/certificate/UC-6a440cdc-fae6-4148-87ca-d9da7671993c/",
   },
   {
     title: "IBM Data Analyst",
-    link: "#",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/H7Y9DHUXNFY5",
   },
   {
     title: "Google Data Analytics",
-    link: "#",
+    link: "https://www.credly.com/badges/7a1394e2-1698-4b9e-9d28-26b58d1e3c79/linked_in_profile",
   },
   {
     title: "Data Analytics Bootcamp - Alex Freberg",
-    link: "#",
+    link: "https://www.linkedin.com/in/dimitriosath/details/certifications/1720632900132/single-media-viewer/?profileId=ACoAADXGw8sBt1c4NpWwZPEn1En0k_HwKjL2_7s",
   },
   {
     title: "Mathematics for Machine Learning Specialisation – Imperial College",
-    link: "#",
+    link: "https://www.coursera.org/account/accomplishments/specialization/4W0TT9EK791M",
   },
 ];
 
