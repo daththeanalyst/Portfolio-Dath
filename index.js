@@ -72,6 +72,10 @@ function populateCertifications(items, id) {
     a.target = "_blank"; // Opens link in a new tab
     a.textContent = title;
 
+    // Change text color dynamically
+    a.style.color = "black"; // Set the desired color here
+    a.style.textDecoration = "none"; // Optional: Removes underline if needed
+
     li.appendChild(a);
     certificationsTag.appendChild(li);
   });
