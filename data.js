@@ -162,10 +162,7 @@ export const certifications = [
     title: "Google Data Analytics",
     link: "https://www.credly.com/badges/7a1394e2-1698-4b9e-9d28-26b58d1e3c79/linked_in_profile",
   },
-  {
-    title: "Data Analytics Bootcamp - Alex Freberg",
-    link: "https://www.linkedin.com/in/dimitriosath/details/certifications/1720632900132/single-media-viewer/?profileId=ACoAADXGw8sBt1c4NpWwZPEn1En0k_HwKjL2_7s",
-  },
+
   {
     title: "Mathematics for Machine Learning Specialisation – Imperial College",
     link: "https://www.coursera.org/account/accomplishments/specialization/4W0TT9EK791M",
