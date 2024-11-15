@@ -1,3 +1,13 @@
+:root {
+	--primary-bg: #f9bf3f; /* Main background color */
+	--secondary-bg: #ffffff; /* Secondary background color */
+	--primary-color: #000000; /* Text color */
+	--secondary-color: #ffffff; /* Secondary text color */
+	--highlight-color: #2c98f0; /* Highlight or link colors */
+	--footer-bg: #f9bf3f; /* Footer background color */
+	--input-border: #3a456a; /* Border color for inputs */
+}
+
 @font-face {
 	font-family: "icomoon";
 	src: url("../fonts/icomoon/icomoon.eot?srf3rx");
