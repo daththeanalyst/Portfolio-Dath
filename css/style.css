@@ -30,7 +30,8 @@ body {
 	font-weight: 400;
 	font-size: 15px;
 	line-height: 1.8;
-	color: black;
+	color: #ffffff; /* White text */
+    	background-color: #4a4e69; /* Steel Gray */
 }
 @media screen and (max-width: 992px) {
 	body {
@@ -43,7 +44,7 @@ body {
 }
 
 a {
-	color: #2c98f0;
+	color: #a8e6cf; /* Lime Green */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -51,7 +52,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-	color: #2c98f0;
+    	color: #ffffff; /* White on hover */
 	outline: none;
 	text-decoration: none !important;
 }
@@ -138,7 +139,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background-color: #f9bf3f;
+	background-color: #4a4e69; /* Steel Gray */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -234,7 +235,7 @@ figure figcaption {
 	letter-spacing: 0.5px;
 }
 #colorlib-aside #colorlib-main-menu ul li a {
-	color: rgba(0, 0, 0, 0.7);
+    	color: #a8e6cf; /* Lime Green */
 	text-decoration: none;
 	position: relative;
 	padding: 10px 0;
@@ -265,7 +266,7 @@ figure figcaption {
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover {
 	text-decoration: none;
-	color: black;
+    	color: #ffffff; /* White on hover */
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover:after {
 	visibility: visible;
@@ -597,7 +598,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 #colorlib-footer2 {
-	background: black;
+	background-color: #4a4e69; /* Steel Gray */
 	width: 100%;
 	padding-bottom: 3em;
 	padding-top: 2em;
