@@ -166,7 +166,6 @@ export const experience = [
     icon: "server",
   },
 ];
-];
 
 export const education = [
   {
