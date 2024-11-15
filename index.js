@@ -89,23 +89,52 @@ function populateProjects(items, id) {
 
   items.forEach(({ projectName, preview, image, summary, techStack }) => {
     const li = document.createElement("li");
+
+    // Create the toggle link (to expand/collapse the project details)
+    const link = document.createElement("div");
+    link.className = "link";
+    link.innerHTML = `
+      <p>${projectName}</p>
+      <i class="fa fa-chevron-down"></i>
+    `;
+
+    // Create the submenu to hold the project details
+    const submenu = document.createElement("ul");
+    submenu.className = "submenu";
+    submenu.style.display = "none"; // Initially hidden
+
+    // Create the project card inside the submenu
     const a = document.createElement("a");
     a.href = preview;
     a.target = "_blank"; // Open in new tab
     a.innerHTML = `
       <div class="project-card">
         <img src="${image}" class="img-fluid" alt="${projectName}">
-        <h4 class="project-heading">${projectName}</h4>
         <p class="project-description">${summary}</p>
-        <div class="tech-stack">${techStack.map(
-          (tech) => `<span class="badge badge-secondary">${tech}</span>`
-        ).join("")}</div>
+        <div class="tech-stack">${techStack
+          .map((tech) => `<span class="badge badge-secondary">${tech}</span>`)
+          .join("")}</div>
       </div>
     `;
-    li.appendChild(a);
+    submenu.appendChild(a);
+
+    // Append link and submenu to the list item
+    li.appendChild(link);
+    li.appendChild(submenu);
+
+    // Add click event for toggling the submenu
+    link.addEventListener("click", () => {
+      const isVisible = submenu.style.display === "block";
+      submenu.style.display = isVisible ? "none" : "block";
+      link.querySelector("i").className = isVisible
+        ? "fa fa-chevron-down"
+        : "fa fa-chevron-up"; // Change icon
+    });
+
     projectDesign.appendChild(li);
   });
 }
+
 
 /**
  * Helper function to create an HTML element with a class name.
