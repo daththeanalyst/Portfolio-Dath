@@ -9,7 +9,7 @@ import {
 } from "./data.js";
 
 // Ensure `projects` contains `webProjects`
-const { webProjects } = projects;
+const { webProjects, softwareProjects } = projects;
 
 /**
  * Populates bio to the HTML page.
