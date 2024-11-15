@@ -139,7 +139,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-	background-color: #4a4e69; /* Steel Gray */
+    	background-color: #000000; /* Changed to Black */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
