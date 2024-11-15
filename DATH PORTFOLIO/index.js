@@ -2,6 +2,7 @@ import {
     bio,
     skills,
     projects,
+    certifications,
     education,
     experience,
     footer,
@@ -11,7 +12,6 @@ import { URLs } from './user-data/urls.js';
   
   const { webProjects, softwareProjects, androidProjects, freelanceProjects } =
     projects;
-  const { medium, gitConnected } = URLs;
   
   /**
    * Fetches blogs from Medium profile.
@@ -24,33 +24,6 @@ import { URLs } from './user-data/urls.js';
    * @returns {void}
    */
   
-  async function fetchBlogsFromMedium(url) {
-    try {
-      const response = await fetch(url);
-      const { items } = await response.json();
-      populateBlogs(items, "blogs");
-    } catch (error) {
-      throw new Error(
-        `Error in fetching the blogs from Medium profile: ${error}`
-      );
-    }
-  }
-
-
-  async function fetchGitConnectedData(url) {
-    try {
-      const response = await fetch(url);
-      console.log(response);
-      const { basics } = await response.json();
-      // populateBlogs(items, "blogs");
-      mapBasicResponse(basics);
-    } catch (error) {
-      throw new Error(
-        `Error in fetching the blogs from git connected: ${error}`
-      );
-    }
-  }
-
   function mapBasicResponse(basics) {
     const {
       name,
@@ -62,7 +35,7 @@ import { URLs } from './user-data/urls.js';
       summary,
       profiles,
       headline,
-      blog,
+      certifications,
       yearsOfExperience,
       username,
       locationAsString,
@@ -224,66 +197,28 @@ import { URLs } from './user-data/urls.js';
    * @returns {undefined}
    */
   
-  function populateBlogs(items, id) {
-    const projectdesign = document.getElementById(id);
-    const count = 3;
-  
-    for (let i = 0; i < count; i++) {
-      const h4 = document.createElement("h4");
-      h4.className = "project-heading";
-      h4.innerHTML = items[i].title;
-  
-      const a = document.createElement("a");
-      a.href = items[i].link;
-      a.target = "_blank";
-      a.append(h4);
-
-      const pubDateEle = document.createElement('p');
-      pubDateEle.className = 'publish-date';
-      pubDateEle.innerHTML = getBlogDate(items[i].pubDate);
-      a.append(pubDateEle);
-  
-      const divResumeContentRight = document.createElement("div");
-      divResumeContentRight.className = "resume-content";
-      divResumeContentRight.id = "right-div";
-  
-      const p = document.createElement("p");
-      p.className = "project-description";
-      const html = items[i].content;
-      const [, doc] = /<p>(.*?)<\/p>/g.exec(html) || [];
-      p.innerHTML = doc;
-  
-      const divSpan = document.createElement("div");
-      for (const category of items[i].categories) {
-        const span = document.createElement("span");
-        span.className = "badge badge-secondary";
-        span.innerHTML = category;
-        divSpan.append(span);
-      }
-  
-      const divSubHeading = document.createElement("div");
-      divSubHeading.className = "sub-heading";
-      divSubHeading.append(p, divSpan);
-      divResumeContentRight.append(divSubHeading);
-  
-      const divResumeItem = document.createElement("div");
-      divResumeItem.className = "resume-item";
-      divResumeItem.append(divResumeContentRight);
-      a.append(divResumeItem);
-  
-      const divProjectCard = document.createElement("div");
-      divProjectCard.className = "project-card";
-      divProjectCard.append(a);
-  
-      const li = document.createElement("li");
-      li.append(divProjectCard);
-      projectdesign.append(li);
-  
-      if (i !== count - 1) {
-        projectdesign.append(document.createElement("hr"));
-      }
-    }
+ function populateCertifications(items, id) {
+  if (!Array.isArray(items)) {
+    console.error("Certifications data is not an array:", items);
+    return;
   }
+
+  const certificationsTag = document.getElementById(id);
+  items.forEach(({ title, link }) => {
+    const li = document.createElement("li");
+    const a = document.createElement("a");
+    a.href = link;
+    a.target = "_blank"; // Opens link in a new tab
+    a.textContent = title;
+
+    // Change text color dynamically
+    a.style.color = "black"; // Set the desired color here
+    a.style.textDecoration = "none"; // Optional: Removes underline if needed
+
+    li.appendChild(a);
+    certificationsTag.appendChild(li);
+  });
+}
   
   /**
    * Populate the HTML timeline with items.
@@ -437,8 +372,6 @@ import { URLs } from './user-data/urls.js';
     return item;
   }
 
-  function getBlogDate(publishDate) {
-    const elapsed = Date.now() - Date.parse(publishDate);
   
     // Time conversions in milliseconds
     const msPerSecond = 1000;
@@ -473,14 +406,15 @@ import { URLs } from './user-data/urls.js';
   
   populateSkills(skills, "skills");
   
-  fetchBlogsFromMedium(medium);
-  fetchGitConnectedData(gitConnected);
+
   
   populateProjects(webProjects, "web-projects");
   populateProjects(softwareProjects, "software-projects");
   populateProjects(androidProjects, "android-projects");
   populateProjects(freelanceProjects, "freelance-projects");
-  
+  populateCertifications(certifications, "certifications");
+
+
   populateExp_Edu(experience, "experience");
   populateExp_Edu(education, "education");
   
