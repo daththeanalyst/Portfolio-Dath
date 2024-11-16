@@ -37,33 +37,35 @@ body {
     background-color: #A7BEAE !important; /* Teal background color */
     color: #2F3C7E !important; /* Blue text color */
     border: 2px solid #2F3C7E !important; /* Blue border */
-    padding: 20px !important; /* Spacing around the content */
-    border-radius: 8px !important; /* Optional: Rounded corners for container */
+    padding: 10px 15px !important; /* Reduced padding for a more compact section */
+    border-radius: 8px !important; /* Rounded corners */
+    box-sizing: border-box; /* Ensures borders do not add extra width */
 }
 
 /* Styling for individual certification list items */
 #certifications li {
-    background-color: #A7BEAE !important; /* Teal background for each certification item */
-    color: #2F3C7E !important; /* Blue text color */
-    border: 2px solid #2F3C7E !important; /* Border to create visual separation */
-    padding: 15px !important; /* Space around each item */
+    background-color: #A7BEAE !important; /* Teal background */
+    color: #2F3C7E !important; /* Blue text */
+    border: 1px solid #2F3C7E !important; /* Reduced border thickness for a neater look */
+    padding: 10px !important; /* Reduced padding for each item */
     border-radius: 4px !important; /* Rounded corners */
-    margin-bottom: 10px !important; /* Space between items */
+    margin-bottom: 5px !important; /* Reduced margin between items */
+    box-sizing: border-box; /* Ensures borders do not add extra width */
 }
 
 /* Link styling inside certifications section */
 .colorlib-certifications a.readmore {
     color: #2F3C7E !important; /* Blue link color */
-    font-weight: 600; /* Makes the link more noticeable */
+    font-weight: 600; /* Make the link stand out */
     text-decoration: none; /* Removes underlines for a cleaner look */
+    display: inline-block; /* Keeps the link more compact */
+    margin-top: 10px; /* Optional: Adds spacing between link and items above */
 }
 
 .colorlib-certifications a.readmore:hover {
     color: #1D2C5E !important; /* Darker blue on hover */
     text-decoration: underline; /* Underline on hover for user feedback */
 }
-
-
 	
 @media screen and (max-width: 992px) {
 	body {
