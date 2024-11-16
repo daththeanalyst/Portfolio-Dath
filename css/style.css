@@ -32,29 +32,36 @@ body {
 
 /* For the Certifications container itself */
 /* Styling for the entire certifications section */
-narrow-content {
-    background-color: #A7BEAE; /* Teal background color */
-    color: #2F3C7E; /* Blue text color to match the theme */
-    border: 2px solid #2F3C7E; /* Blue border to match the theme */
-    padding: 20px; /* Adjust padding for consistent spacing */
-    border-radius: 8px; /* Optional: adds rounded corners */
+/* Styling for the main certification container */
+.colorlib-certifications .colorlib-narrow-content {
+    background-color: #A7BEAE !important; /* Teal background color */
+    color: #2F3C7E !important; /* Blue text color */
+    border: 2px solid #2F3C7E !important; /* Blue border */
+    padding: 20px !important; /* Spacing around the content */
+    border-radius: 8px !important; /* Optional: Rounded corners for container */
 }
 
-/* For the individual certification list items */
+/* Styling for individual certification list items */
 #certifications li {
-    background-color: #A7BEAE; /* Teal background for each certification */
-    color: #2F3C7E; /* Set text color to blue to match the theme */
-    border: 2px solid #2F3C7E; /* Optional: Adds border to match theme */
-    padding: 15px; /* Adjust padding to add space around items */
-    border-radius: 4px; /* Rounded corners */
-    margin-bottom: 10px; /* Space between items */
+    background-color: #A7BEAE !important; /* Teal background for each certification item */
+    color: #2F3C7E !important; /* Blue text color */
+    border: 2px solid #2F3C7E !important; /* Border to create visual separation */
+    padding: 15px !important; /* Space around each item */
+    border-radius: 4px !important; /* Rounded corners */
+    margin-bottom: 10px !important; /* Space between items */
 }
 
 /* Link styling inside certifications section */
 .colorlib-certifications a.readmore {
-    color: #2F3C7E; /* Blue link color */
-    font-weight: 600; /* Make the link stand out */
-} 
+    color: #2F3C7E !important; /* Blue link color */
+    font-weight: 600; /* Makes the link more noticeable */
+    text-decoration: none; /* Removes underlines for a cleaner look */
+}
+
+.colorlib-certifications a.readmore:hover {
+    color: #1D2C5E !important; /* Darker blue on hover */
+    text-decoration: underline; /* Underline on hover for user feedback */
+}
 
 
 	
