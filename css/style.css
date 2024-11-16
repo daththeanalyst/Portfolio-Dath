@@ -2040,8 +2040,11 @@ ul {
 	-webkit-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
-}
+	background-color: #A7BEAE; /* Changed to Muted Teal */
+	color: #2F3C7E; /* Blue text color */
+	border-bottom: 1px solid #2F3C7E; /* Blue border */
 
+}
 .accordion li:last-child .link {
 	border-bottom: 0;
 }
@@ -2051,7 +2054,7 @@ ul {
 	top: 16px;
 	left: 12px;
 	font-size: 18px;
-	color: #595959;
+    	color: #2F3C7E; /* Blue color for the dropdown icon */
 	-webkit-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
