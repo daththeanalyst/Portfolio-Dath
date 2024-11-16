@@ -852,7 +852,7 @@ body.offcanvas .colorlib-nav-toggle {
 	position: absolute;
 	display: block;
 	width: 4px;
-	background: #f9bf3f;
+    	background: #A7BEAE; /* Muted Teal color for updated theme */
 	top: 20px;
 	bottom: 20px;
 	margin-left: 29px;
@@ -2051,8 +2051,12 @@ ul {
 	transition: all 0.4s ease;
 	background-color: #A7BEAE; /* Changed to Muted Teal */
 	color: #2F3C7E; /* Blue text color */
-	border-bottom: 1px solid #2F3C7E; /* Blue border */
+    	border: 1px solid #B85042; /* Terracotta Red border for a frame */
 
+}
+.accordion .link:hover {
+	background-color: #B85042; /* Hover color: Terracotta Red */
+	color: #ffffff; /* White text on hover for better contrast */
 }
 .accordion li:last-child .link {
 	border-bottom: 0;
