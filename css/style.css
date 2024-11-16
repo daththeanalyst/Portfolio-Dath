@@ -30,7 +30,6 @@ body {
 .colorlib-narrow-content {
   padding: 0 4.5em; /* More padding for larger screens */
 }
-
 /* Large Screen Styles (Desktops larger than 1400px) */
 @media screen and (min-width: 1400px) {
   
@@ -39,50 +38,61 @@ body {
     max-width: 1600px; /* Increase max-width to ensure more content fills the screen */
     margin: 0 auto; /* Center content */
   }
+
   /* Sidebar (Adjust width for larger screens) */
   #colorlib-aside {
     width: 400px; /* Expand sidebar width for larger screens */
     padding-top: 3em;
     padding-bottom: 1px;
   }
+
   /* Main content area (adjusted for sidebar change) */
   #colorlib-main {
     width: calc(100% - 400px); /* Main content to adapt to larger sidebar */
     padding: 2em 3em; /* Add more padding for larger screens */
   }
+
   /* Project section */
   #projects {
     padding: 80px 30px; /* Add more padding to make the section feel less cramped on large screens */
   }
+
   /* Adjust font sizes */
   body {
     font-size: 18px; /* Increase base font size for readability */
   }
+
   h1, h2, h3, h4, h5, h6 {
     font-size: calc(1.1em + 0.5vw); /* Increase heading font sizes proportionally for larger screens */
   }
+
   /* Increase the size of project cards to better fill larger screens */
   .project {
     max-width: 1100px;
     margin: 0 auto 50px auto;
   }
+
   /* Adjust the accordion padding and font size */
   .accordion .link {
     padding: 25px 25px; /* Increase padding for larger screens */
     font-size: 18px; /* Increase font size for better readability */
   }
+
   /* Image adjustments to avoid being too small */
   .author-img img {
     width: 200px; /* Increase author image size for large screens */
     height: 200px;
   }
+
   /* Timeline adjustments to better fill the space */
   .timeline-centered:before {
     margin-left: 50px; /* Adjust for better spacing on large screens */
   }
+
   .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
     margin-left: 80px; /* Increase margin for better spacing */
   }
+
   /* Certifications section */
   #certifications li {
     padding: 20px; /* Increase padding for certifications */
