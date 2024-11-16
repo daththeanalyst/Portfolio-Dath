@@ -237,6 +237,28 @@ function getElement(tagName, className) {
   if (className) item.className = className;
   return item;
 }
+// Ensure this script runs after DOM is loaded
+document.addEventListener("DOMContentLoaded", function () {
+  // Get the containers where project titles should be added
+  const webProjectsContainer = document.getElementById("web-projects");
+  const softwareProjectsContainer = document.getElementById("software-projects");
+
+  // Assuming 'projects' is already available from data.js
+  // Load Web Projects
+  projects.webProjects.forEach((project) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = project.projectName; // Add the name of the project as list item text
+    webProjectsContainer.appendChild(listItem);
+  });
+
+  // Load Software Projects
+  projects.softwareProjects.forEach((project) => {
+    const listItem = document.createElement("li");
+    listItem.textContent = project.projectName; // Add the name of the project as list item text
+    softwareProjectsContainer.appendChild(listItem);
+  });
+});
+
 
 // Populate the webpage content
 populateBio(bio, "bio");
