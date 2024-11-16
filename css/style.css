@@ -817,8 +817,9 @@ body.offcanvas .colorlib-nav-toggle {
 	padding: 1.5em;
 	margin-top: 5px;
 	border: 1px solid #e6e6e6 !important;
-	background-color: #FBEAEB; /* Pastel Pink background for Projects accordion content */
-	color: #2F3C7E; /* Blue text color for Projects accordion content */
+    	background-color: #A7BEAE; /* Change background to Muted Teal */
+    	color: #2F3C7E; /* Keep the text color Blue for contrast */
+	border: 1px solid #A7BEAE; /* Optional: Create a Muted Teal border to match the background */
 
 }
 
@@ -2044,14 +2045,12 @@ ul {
 	display: block;
 	padding: 15px 15px 15px 15px;
 	font-weight: 700;
-	border-bottom: 1px solid #000;
 	position: relative;
 	-webkit-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 	background-color: #A7BEAE; /* Changed to Muted Teal */
 	color: #2F3C7E; /* Blue text color */
-    	border: 1px solid #B85042; /* Terracotta Red border for a frame */
 
 }
 .accordion .link:hover {
@@ -2059,7 +2058,7 @@ ul {
 	color: #ffffff; /* White text on hover for better contrast */
 }
 .accordion li:last-child .link {
-	border-bottom: 0;
+	border-bottom: none;
 }
 
 .accordion li i {
@@ -2078,7 +2077,7 @@ ul {
 	left: auto;
 	font-size: 16px;
 }
-
+	
 .accordion li.open i.fa-chevron-down {
 	-webkit-transform: rotate(180deg);
 	-ms-transform: rotate(180deg);
@@ -2208,14 +2207,14 @@ span {
 }
 
 :root {
-	--footer-bg: #f9bf3f;
-	--color: #000;
-	--color-smooth: #000;
-	--input-border: #3a456a;
-	--btn-bg-color: #f1f2fc;
-	--btn-hover-bg: #d5d9f6;
-	--btn-color: #1e2641;
-  }
+	--footer-bg: #FBEAEB; /* Update to Pastel Pink to match the new theme */
+	--color: #2F3C7E; /* Update to Blue for primary text color */
+	--color-smooth: #A7BEAE; /* Muted Teal for softer or secondary elements */
+	--input-border: #B85042; /* Terracotta Red for input borders or accents */
+	--btn-bg-color: #2F3C7E; /* Blue background for buttons */
+	--btn-hover-bg: #A7BEAE; /* Muted Teal for hover effect on buttons */
+	--btn-color: #FFFFFF; /* White text color for buttons to create contrast */
+}
   
   footer {
 	font-size: 13px;
