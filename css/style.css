@@ -866,7 +866,8 @@ body.offcanvas .colorlib-nav-toggle {
 	display: block;
 	width: 40px;
 	height: 40px;
-	background: #2c98f0;
+    	background: #B85042; /* Updated to Terracotta Red */
+	color: white; /* White icon to make it stand out */
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
@@ -915,8 +916,8 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 	position: relative;
-	background: #f9bf3f;
-	color: #000;
+    	background: #A7BEAE; /* Updated to Muted Teal */
+    	color: #2F3C7E; /* Blue text to match the theme */
 	padding: 1.5em;
 	margin-left: 60px;
 	-webkit-background-clip: padding-box;
