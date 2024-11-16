@@ -28,6 +28,34 @@ body {
     	color: #2F3C7E; /* Updated to Blue text color */
     	background-color: #FBEAEB; /* Updated to Pastel Pink background */
 }
+/* CSS for the Certifications Section */
+
+/* For the Certifications container itself */
+.colorlib-certifications .colorlib-narrow-content {
+    background-color: #A7BEAE; /* Teal background color */
+    color: #2F3C7E; /* Blue text color to match the theme */
+    border: 2px solid #2F3C7E; /* Blue border to match the theme */
+    padding: 20px; /* Adjust padding for consistent spacing */
+    border-radius: 8px; /* Optional: adds rounded corners */
+}
+
+/* For the individual certification list items */
+#certifications li {
+    background-color: #A7BEAE; /* Teal background for each certification */
+    color: #2F3C7E; /* Set text color to blue to match the theme */
+    border: 2px solid #2F3C7E; /* Optional: Adds border to match theme */
+    padding: 15px; /* Adjust padding to add space around items */
+    border-radius: 4px; /* Rounded corners */
+    margin-bottom: 10px; /* Space between items */
+}
+
+/* Link styling inside certifications section */
+.colorlib-certifications a.readmore {
+    color: #2F3C7E; /* Blue link color */
+    font-weight: 600; /* Make the link stand out */
+}
+
+	
 @media screen and (max-width: 992px) {
 	body {
 		font-size: 16px;
