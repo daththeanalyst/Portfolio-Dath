@@ -2072,8 +2072,8 @@ ul {
 	padding-left: 20px;
 	padding-right: 20px;
 	/* margin: 30px auto 20px; */
-	background: #A7BEAE;
-	color: #000;
+    	background-color: #A7BEAE !important; /* Teal background for the entire projects section */
+	color: #2F3C7E !important; /* Blue text color */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -2088,8 +2088,8 @@ ul {
 	-webkit-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
-	background-color: #A7BEAE; /* Changed to Muted Teal */
-	color: #2F3C7E; /* Blue text color */
+	background-color: #A7BEAE !important; /* Teal background for the headers of the accordion */	color: #2F3C7E; /* Blue text color */
+	color: #2F3C7E !important; /* Blue text color */
 
 }
 .accordion .link:hover {
@@ -2130,7 +2130,8 @@ ul {
 
 .submenu {
 	display: none;
-	background: #f9bf3f;
+    	background-color: #A7BEAE !important; /* Teal background for the content inside each expanded project */
+	color: #2F3C7E !important; /* Blue text color */
 	font-size: 14px;
 	padding-left: 0px;
 	padding-top: 10px;
