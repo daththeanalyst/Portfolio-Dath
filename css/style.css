@@ -165,7 +165,7 @@ body {
 /* For the individual certification list items */
 /* For the individual certification list items */
 #certifications li {
-    background-color: #2F3C7E; /* Blue background for each certification */
+    background-color: #ADBECF; /* Blue background for each certification */
     color: #000000; /* Set text color to blue to match the theme */
     border: 2px solid #000000; /* Optional: Adds border to match theme */
     padding: 15px; /* Adjust padding to add space around items */
@@ -292,7 +292,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-    	background-color: #2F3C7E; /* Updated to Pastel Pink for Sidebar Background */
+    	background-color: #FBEAEB; /* Updated to Pastel Pink for Sidebar Background */
 	color: #000000; /* Blue text color */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
@@ -437,7 +437,7 @@ figure figcaption {
 #colorlib-aside #colorlib-main-menu ul li.active a {
 	font-size: 15px;
 	font-weight: 600;
-	color: #B85042; /* Terracotta Red for active menu items */
+	color: #ADBECF; /* Light Blue for active menu items */
 
 }
 #colorlib-aside #colorlib-main-menu ul li.active a:after {
