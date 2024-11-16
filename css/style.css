@@ -21,12 +21,73 @@
 *
 * ======================================================= */
 body {
-	font-family: "Quicksand", Arial, sans-serif;
-	font-weight: 400;
-	font-size: 15px;
-	line-height: 1.8;
-    	color: #2F3C7E; /* Updated to Blue text color */
-    	background-color: #FBEAEB; /* Updated to Pastel Pink background */
+  font-family: "Quicksand", Arial, sans-serif;
+  line-height: 1.8;
+  color: #2F3C7E; /* Blue text color */
+  background-color: #FBEAEB; /* Pastel Pink background */
+}
+}
+.colorlib-narrow-content {
+  padding: 0 4.5em; /* More padding for larger screens */
+}
+
+/* Medium Screen Styles (Tablets) */
+@media screen and (max-width: 992px) {
+  .colorlib-narrow-content {
+    padding: 0 2em; /* Reduce padding for tablets */
+  }
+
+  #colorlib-aside {
+    width: 250px; /* Slightly smaller sidebar for tablets */
+  }
+
+  .project-info {
+    margin-left: 200px; /* Adjust the left margin for project cards */
+  }
+
+  .accordion .link {
+    font-size: 14px; /* Adjust font size for accordion titles */
+  }
+}
+
+/* Small Screen Styles (Phones) */
+@media screen and (max-width: 768px) {
+  #colorlib-aside {
+    width: 100%;
+    position: relative; /* Make sidebar relative instead of fixed */
+    padding-top: 2em;
+  }
+
+  #colorlib-main {
+    width: 100%; /* Make the main content take the full width */
+    padding: 1em;
+  }
+
+  .colorlib-narrow-content {
+    padding: 0 1em; /* Minimal padding for mobile screens */
+  }
+
+  .submenu {
+    padding: 0; /* Remove extra padding for mobile view */
+  }
+
+  .about-desc, .timeline-centered, .project-info, .certifications {
+    text-align: center; /* Align text centrally for better readability */
+  }
+
+  .accordion .link {
+    padding: 10px; /* Adjust padding for clickable links */
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+
+  .project {
+    margin: 10px auto; /* Add margin to separate project cards */
+  }
+
+  .author-img img {
+    width: 120px; /* Smaller author image for mobile screens */
+    height: 120px;
+  }
 }
 /* CSS for the Certifications Section */
 
