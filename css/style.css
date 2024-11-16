@@ -2103,6 +2103,10 @@ ul {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
+	background-color: #A7BEAE; /* Change yellow to Muted Teal */
+    	color: #2F3C7E; /* Set text color to match your blue theme */
+    	border: 2px solid #2F3C7E; /* Optional: Add a border if you want to highlight the element */
+    	border-radius: 4px; /* Optional: Adds rounded corners for a polished look */
 }
 
 .submenu li:hover {
