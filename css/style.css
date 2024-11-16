@@ -32,15 +32,8 @@ body {
 
 /* For the Certifications container itself */
 /* Styling for the entire certifications section */
-.colorlib-certifications {
-    background-color: #A7BEAE !important; /* Teal background color for the entire section */
-    padding: 20px; /* Padding for consistent spacing */
-    border-radius: 8px; /* Adds rounded corners */
-}
-
-/* For the specific container inside certifications */
-.colorlib-certifications .colorlib-narrow-content {
-    background-color: #A7BEAE !important; /* Ensure the background is teal */
+narrow-content {
+    background-color: #A7BEAE; /* Teal background color */
     color: #2F3C7E; /* Blue text color to match the theme */
     border: 2px solid #2F3C7E; /* Blue border to match the theme */
     padding: 20px; /* Adjust padding for consistent spacing */
@@ -49,9 +42,9 @@ body {
 
 /* For the individual certification list items */
 #certifications li {
-    background-color: #A7BEAE !important; /* Teal background for each certification */
-    color: #2F3C7E !important; /* Set text color to blue to match the theme */
-    border: 2px solid #2F3C7E; /* Adds border to match theme */
+    background-color: #A7BEAE; /* Teal background for each certification */
+    color: #2F3C7E; /* Set text color to blue to match the theme */
+    border: 2px solid #2F3C7E; /* Optional: Adds border to match theme */
     padding: 15px; /* Adjust padding to add space around items */
     border-radius: 4px; /* Rounded corners */
     margin-bottom: 10px; /* Space between items */
@@ -61,22 +54,7 @@ body {
 .colorlib-certifications a.readmore {
     color: #2F3C7E; /* Blue link color */
     font-weight: 600; /* Make the link stand out */
-}
-
-/* Remove any yellow background on ul */
-#certifications {
-    background-color: #A7BEAE !important; /* Ensure parent ul also has teal background */
-    padding: 20px; /* Padding for spacing */
-    border-radius: 8px; /* Rounded corners for a consistent look */
-}
-
-/* For the accordion part if relevant */
-.accordion .link, #accordion-certifications li {
-    background-color: #A7BEAE !important; /* Make sure accordions are teal as well */
-    color: #2F3C7E; /* Blue text to match the theme */
-    border: 2px solid #2F3C7E; /* Consistent border to match */
-    border-radius: 4px; /* Optional rounded corners */
-}
+} 
 
 
 	
