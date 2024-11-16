@@ -146,6 +146,8 @@ figure figcaption {
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
+	border: 3px solid #2F3C7E; /* Blue border that matches the theme */
+    	border-radius: 10px; /* Optional: to make the edges rounded */
 }
 @media screen and (max-width: 768px) {
 	#colorlib-aside {
