@@ -165,7 +165,6 @@ body {
 /* For the individual certification list items */
 /* For the individual certification list items */
 #certifications {
-    padding: 30px;
     background-color: #FBEAEB; /* Set the general background to Pastel Pink */
 #certifications li {
     background-color: #ADBECF; /* Blue background for each certification */
