@@ -164,6 +164,7 @@ export const education = [
     details: [
       "Key Courses: Machine Learning, Data Analytics, Business Analytics.",
       "Second Year Avg: 69% (2:1).",
+      "President & Co-Founder of Data Analytics Society"
     ],
     tags: ["Machine Learning", "Data Analytics", "Business Analytics"],
     icon: "graduation-cap",
@@ -176,7 +177,7 @@ export const education = [
       "IB Diploma: HL - Mathematics AA, Physics, Business Management.",
       "IGCSEs: 10 GCSEs including Mathematics(A) and English Language(A).",
     ],
-    tags: ["Mathematics", "Physics", "Business Management"],
+    tags: ["Mathematics", "Physics", "Business Management", "Java","Python",],
     icon: "school",
   },
 ];
