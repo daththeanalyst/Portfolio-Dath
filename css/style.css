@@ -164,12 +164,15 @@ body {
 /* Styling for the main certification container */
 /* For the individual certification list items */
 /* For the individual certification list items */
+#certifications {
+    padding: 30px;
+    background-color: #FBEAEB; /* Set the general background to Pastel Pink */
 #certifications li {
     background-color: #ADBECF; /* Blue background for each certification */
-    color: #000000; /* Set text color to blue to match the theme */
-    border: 2px solid #000000; /* Optional: Adds border to match theme */
+    color: #2F3C7E; /* Set text color to blue to match the theme */
+    border: 2px solid #2F3C7E; /* Optional: Adds border to match theme */
     padding: 15px; /* Adjust padding to add space around items */
-    border-radius: 4px; /* Rounded corners */
+    border-radius: 12px; /* Rounded corners */
     margin-bottom: 10px; /* Space between items */
 }
 
