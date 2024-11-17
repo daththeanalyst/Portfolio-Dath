@@ -99,46 +99,46 @@ export const projects = {
 
 export const experience = [
   {
-    title: "Globassure Insurance Agents (Howden)",
+    title: "Globassure Insurance Agents (Howden), Athens, Greece",
     duration: "July 2024 - August 2024",
     subtitle: "Data Analyst",
     details: [
-      "Cleaned 15,000+ records and automated tasks with Python, saving 40 hours/month.",
-      "Leveraged Power BI insights to boost marketing ROI by 18%.",
+      "Cleaned 12,000+ records, performed exploratory data analysis (EDA), and identified key data relationships that drove actionable insights.",
+      "Scraped and organized data on potential clients in Excel, securing 5 start-up businesses for employee insurance coverage.",
     ],
-    tags: ["Python", "Power BI", "Data Cleaning", "SQL"],
+    tags: ["Python", "EDA", "Data Cleaning", "Excel", "Power BI"],
     icon: "briefcase",
   },
   {
-    title: "ICB, Athens",
+    title: "ICB, Athens, Greece",
     duration: "June 2024 - July 2024",
     subtitle: "Data Analyst",
     details: [
-      "Improved data accuracy by 15% by integrating SoftOne SQL data.",
-      "Created Power BI dashboards, reducing overstock by 25% and minimizing costs.",
+      "Minimized redundant stock purchases using SoftOne SQL data, cutting overstock by 3%.",
+      "Created Power BI dashboards, reducing excess inventory by 5%.",
     ],
-    tags: ["Power BI", "SQL", "Data Visualization"],
+    tags: ["SQL", "Power BI", "Inventory Optimization", "Data Visualization"],
     icon: "chart-line",
   },
   {
-    title: "Syndesis",
+    title: "Syndesis, Athens, Greece",
     duration: "July 2023 - November 2023",
     subtitle: "Co-Founder",
     details: [
-      "Conducted market research and analyzed insights using Excel & Power BI.",
-      "Led consultations with experts, expanding the advisory network by 80%.",
+      "Researched market and technology requirements, visiting 5% of target businesses, compiling and visualizing insights using Excel & Power BI.",
+      "Led 5+ consultations with industry experts, securing actionable advice and expanding the advisory network by 80%.",
     ],
-    tags: ["Market Research", "Excel", "Power BI"],
+    tags: ["Market Research", "Excel", "Power BI", "Networking"],
     icon: "user-tie",
   },
   {
-    title: "New Democracy Political Party",
+    title: "New Democracy Political Party, Athens, Greece",
     duration: "May 2023 - July 2023",
     subtitle: "Call Centre Agent",
     details: [
-      "Managed 350+ calls daily and influenced 10-50 prospective representatives.",
+      "Managed 350+ calls daily, setting a record with 700 calls in a day, influencing 10-50 prospective regional elective representatives.",
     ],
-    tags: ["Communication", "Customer Support"],
+    tags: ["Communication", "Customer Engagement", "High-Volume Calling"],
     icon: "phone",
   },
   {
@@ -146,23 +146,15 @@ export const experience = [
     duration: "June 2022 - August 2022",
     subtitle: "Data Ops Analyst",
     details: [
-      "Processed 3,000+ data entries and digitized records, eliminating bottlenecks and elevating productivity by 20%.",
-      "Performed data scraping to collect data on potential clientele, organizing the information in Excel for targeted outreach, resulting in acquiring 5 client businesses for employee insurance coverage.",
+      "Conducted market research with Excel, identifying potential clients and increasing clientele by 2%.",
+      "Developed Power BI dashboards from cleaned Excel data, summarizing 1,000+ data points and saving 1 day of reporting effort weekly.",
     ],
-    tags: ["Data Entry", "Excel", "Data Scraping"],
+    tags: ["Market Research", "Excel", "Power BI", "Efficiency Improvement"],
     icon: "briefcase",
   },
-  {
-    title: "Lamda Helix Data Centre, Athens, Greece",
-    duration: "June 2020 - August 2020",
-    subtitle: "Data Engineer Shadow",
-    details: [
-      "Collaborated with data engineers to optimize data center operations, enhancing data storage, security, and efficiency while developing technical expertise.",
-    ],
-    tags: ["Data Center Operations", "Data Storage", "Technical Expertise"],
-    icon: "server",
-  },
 ];
+
+
 
 export const education = [
   {
