@@ -732,6 +732,8 @@ body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-narrow-content {
 	padding: 0 4.5em;
+	margin-bottom: 30px; /* Adds 30px of space below the Projects section */
+
 }
 @media screen and (max-width: 878px) {
 	.colorlib-narrow-content {
