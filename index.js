@@ -238,7 +238,25 @@ function getElement(tagName, className) {
   return item;
 }
 // Ensure this script runs after DOM is loaded
+// Add Dark Mode Toggle Button Functionality
+const darkModeToggle = document.getElementById("darkModeToggle");
 
+// Check and apply saved dark mode preference on page load
+window.onload = () => {
+  const savedMode = localStorage.getItem("darkMode");
+  if (savedMode === "enabled") {
+    document.body.classList.add("dark-mode");
+  }
+};
+
+// Toggle Dark Mode and Save Preference
+darkModeToggle.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+
+  // Save preference in localStorage
+  const isDarkMode = document.body.classList.contains("dark-mode");
+  localStorage.setItem("darkMode", isDarkMode ? "enabled" : "disabled");
+});
 
 
 // Populate the webpage content
