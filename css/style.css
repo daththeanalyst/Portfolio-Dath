@@ -328,10 +328,10 @@ figure figcaption {
 	height: auto;
 }
 #colorlib-aside .author-img {
-	width: 190px;
-	height: 190px;
+	width: 200px;
+	height: 200px;
 	margin: 0 auto;
-	margin-top: -5px; /* Moves the image 20px higher */
+	margin-top: -10px; /* Moves the image 20px higher */
 	margin-bottom: 30px;
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -344,7 +344,7 @@ figure figcaption {
 	height: 100%; 
     	object-fit: contain;
 	padding: 30px;
-	margin-top: -10px; /* Moves the image 20px higher */
+	margin-top: -30px; /* Moves the image 20px higher */
 
 }
 #colorlib-aside h1 {
@@ -363,6 +363,8 @@ figure figcaption {
 	margin-bottom: 0.5em;
 	display: block;
 	width: 100%;
+	margin-top: -20px; /* Moves the image 20px higher */
+
 }
 #colorlib-aside #colorlib-logo a {
 	display: block;
@@ -372,6 +374,7 @@ figure figcaption {
 }
 #colorlib-aside #colorlib-main-menu {
 	display: block;
+	margin-top: -20px; /* Moves the image 20px higher */
 	width: 100%;
 }
 #colorlib-aside #colorlib-main-menu .collapse {
