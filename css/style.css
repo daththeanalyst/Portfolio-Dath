@@ -194,6 +194,8 @@ body {
     padding: 15px; /* Adjust padding to add space around items */
     border-radius: 12px; /* Rounded corners */
     margin-bottom: 10px; /* Space between items */
+    margin-top: 30px; /* Add space above the certifications section */
+
 }
 
 /* Link styling inside certifications section */
