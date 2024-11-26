@@ -811,6 +811,25 @@ body.offcanvas .colorlib-nav-toggle {
 		display: flex;
 		flex-direction: column;
 	}
+}
+.colorlib-contact {
+	padding-top: 6em; /* Increase the top padding */
+	padding-bottom: 6em; /* Increase the bottom padding */
+	min-height: 300px; /* Ensure a minimum height */
+	clear: both;
+	width: 100%;
+	display: block;
+}
+
+/* Mobile-specific adjustments for "Contact" section */
+@media screen and (max-width: 768px) {
+	.colorlib-contact {
+		padding-top: 4em; /* Slightly reduce padding for smaller screens */
+		padding-bottom: 4em; /* Maintain sufficient bottom padding */
+		min-height: 250px; /* Ensure enough height on mobile */
+	}
+}
+
 
 #colorlib-footer2 {
     	background-color: #2F3C7E; /* Blue footer background */
@@ -820,24 +839,6 @@ body.offcanvas .colorlib-nav-toggle {
 	padding-top: 2em;
 	padding-right: 2em;
 }
-	.colorlib-contact {
-    padding-top: 8em; /* Increase top padding */
-    padding-bottom: 8em; /* Increase bottom padding */
-    min-height: 500px; /* Set a minimum height */
-    clear: both;
-    width: 100%;
-    display: block;
-}
-
-/* For mobile-specific adjustments */
-@media screen and (max-width: 768px) {
-    .colorlib-contact {
-        padding-top: 6em; /* Slightly smaller padding on mobile */
-        padding-bottom: 6em;
-        min-height: 400px; /* Ensure enough height on smaller screens */
-    }
-}
-
 #colorlib-footer2 .h2 {
 	color: red;
 	text-align: center;
