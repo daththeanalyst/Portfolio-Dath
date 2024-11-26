@@ -473,7 +473,9 @@ figure figcaption {
 #colorlib-aside #colorlib-main-menu ul li.active a {
 	font-size: 15px;
 	font-weight: 600;
-	color: #FF5733; /* Red for active menu items */
+	color: #2F3C7E; /* Blue for active menu items */
+	font-weight: bold; /* Make it bold */
+
 
 }
 #colorlib-aside #colorlib-main-menu ul li.active a:after {
