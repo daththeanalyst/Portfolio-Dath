@@ -2249,7 +2249,7 @@ ul {
 	transition: all 0.4s ease;
 	background-color: #FFFFFF !important; /* Teal background for the headers of the accordion */	
 	color: #2F3C7E !important; /* Blue text color */
-	border: 2px solid #2F3C7E; /* Apply blue border */
+	border: 1px solid #2F3C7E; /* Apply blue border */
 
 }
 .accordion .link:hover {
