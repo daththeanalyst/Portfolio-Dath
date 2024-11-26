@@ -20,48 +20,9 @@
 *	Edit this section
 *
 * ======================================================= */
-/* Dark Mode Styles */
-body.dark-mode {
-  background-color: #2F3C7E; /* Blue Background */
-  color: #ffffff; /* White Text */
+.timeline-centered .timeline-entry .timeline-label p:last-of-type {
+    display: none; /* Hides the last bullet point */
 }
-
-.btn-custom {
-   text-decoration: none;
-   padding: 10px 20px; /* Adjust padding for smaller size */
-   font-size: 14px; /* Smaller font size */
-   border-radius: 5px;
-   background-color: #2F3C7E; /* Match your blue color scheme */
-   color: #FFFFFF; /* White text for contrast */
-   border: 1px solid #2F3C7E;
-   transition: all 0.3s ease;
-   display: inline-block;
-   text-align: center;
-}
-
-.btn-custom:hover {
-   background-color: #ADBECF; /* Lighter blue on hover */
-   color: #2F3C7E; /* Darker text on hover */
-}
-
-
-	
-#darkModeToggle {
-  padding: 10px 15px;
-  font-size: 16px;
-  background-color: #2F3C7E; /* Button Blue Background */
-  color: #ffffff; /* White Text */
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-#darkModeToggle:hover {
-  background-color: #ffffff; /* White Background on Hover */
-  color: #2F3C7E; /* Blue Text on Hover */
-}
-
 body {
   font-family: "Quicksand", Arial, sans-serif;
   line-height: 1.8;
