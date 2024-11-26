@@ -300,7 +300,7 @@ figure figcaption {
 	transition: 0.5s;
 	border: 3px solid #2F3C7E; /* Blue border that matches the theme */
     	border-radius: 10px; /* Optional: to make the edges rounded */
-	transform: scale(0.98); /* Scale down to 90% */
+	transform: scale(0.99); /* Scale down to 90% */
     	transform-origin: top left; /* Ensure scaling starts from the top left */
 }
 @media screen and (max-width: 768px) {
@@ -341,8 +341,10 @@ figure figcaption {
 
 #colorlib-aside .author-img img{
 	height: 100%; 
-    object-fit: contain;
+    	object-fit: contain;
 	padding: 30px;
+	margin-top: -10px; /* Moves the image 20px higher */
+
 }
 #colorlib-aside h1 {
 	font-family: "Raleway", sans-serif;
