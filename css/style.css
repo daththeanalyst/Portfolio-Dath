@@ -51,7 +51,7 @@ body {
 }
 .colorlib-narrow-content {
   padding: 0 4.5em; /* More padding for larger screens */
-  margin-bottom: 50px; /* Adds 30px of space below the Projects section */
+  margin-bottom: 30px; /* Adds 30px of space below the Projects section */
 
 }
 /* Large Screen Styles (Desktops larger than 1400px) */
@@ -734,7 +734,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .colorlib-narrow-content {
 	padding: 0 4.5em;
-	margin-bottom: 50px; /* Adds 50px of space below the Projects section */
+	margin-bottom: 35px; /* Adds 50px of space below the Projects section */
 
 }
 @media screen and (max-width: 878px) {
