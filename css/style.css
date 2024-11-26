@@ -375,6 +375,8 @@ figure figcaption {
 	text-align: center;
 	color: #2F3C7E;
 	padding-right: 0.3em;
+	margin-top: -30px; /* Moves the image 20px higher */
+
 }
 #colorlib-aside #colorlib-main-menu {
 	display: block;
