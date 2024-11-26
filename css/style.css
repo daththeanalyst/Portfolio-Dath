@@ -337,7 +337,7 @@ figure figcaption {
 	-moz-border-radius: 50%;
 	-ms-border-radius: 50%;
 	border-radius: 50%;
-	margin-top: -30px; /* Moves the image 20px higher */
+	margin-top: -15px; /* Moves the image 20px higher */
 
 	/* border: 3px solid white; */
 }
@@ -351,6 +351,8 @@ figure figcaption {
 }
 #colorlib-aside h1 {
 	font-family: "Raleway", sans-serif;
+	margin-top: -20px; /* Moves the image 20px higher */
+
 }
 #colorlib-aside .position {
 	display: block;
