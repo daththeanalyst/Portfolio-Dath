@@ -892,6 +892,8 @@ body.offcanvas .colorlib-nav-toggle {
 	text-align: center;
     	background-color: #ADBECF !important; /* Blue background for Projects section */
     	color: #2F3C7E; /* Blue text for better contrast */
+	margin-bottom: 45px; /* Adds 30px of space below the Projects section */
+
 
 
 }
