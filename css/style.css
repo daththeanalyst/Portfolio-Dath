@@ -26,58 +26,24 @@ body.dark-mode {
   color: #ffffff; /* White Text */
 }
 
-.contact-buttons {
-  text-align: center;
-  margin-top: 20px; /* Adds space above the buttons */
+.btn-custom {
+   text-decoration: none;
+   padding: 10px 20px; /* Adjust padding for smaller size */
+   font-size: 14px; /* Smaller font size */
+   border-radius: 5px;
+   background-color: #2F3C7E; /* Match your blue color scheme */
+   color: #FFFFFF; /* White text for contrast */
+   border: 1px solid #2F3C7E;
+   transition: all 0.3s ease;
+   display: inline-block;
+   text-align: center;
 }
 
-.contact-buttons .btn {
-  margin: 5px; /* Space between buttons */
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  border-radius: 8px;
-  text-decoration: none;
-  display: inline-block;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+.btn-custom:hover {
+   background-color: #ADBECF; /* Lighter blue on hover */
+   color: #2F3C7E; /* Darker text on hover */
 }
 
-/* Primary button (CV download) */
-.contact-buttons .btn-primary {
-  background-color: #2F3C7E; /* Blue background */
-  color: #FFFFFF; /* White text */
-  border: none;
-}
-
-.contact-buttons .btn-primary:hover {
-  background-color: #4054b2; /* Darker blue on hover */
-  transform: scale(1.05); /* Zoom effect */
-}
-
-/* Secondary button (Linktree) */
-.contact-buttons .btn-secondary {
-  background-color: #4CAF50; /* Green background */
-  color: #FFFFFF; /* White text */
-  border: none;
-}
-
-.contact-buttons .btn-secondary:hover {
-  background-color: #3B8E40; /* Darker green on hover */
-  transform: scale(1.05); /* Zoom effect */
-}
-
-/* Email button */
-.contact-buttons .btn-email {
-  background-color: #FF5733; /* Orange background */
-  color: #FFFFFF; /* White text */
-  border: none;
-}
-
-.contact-buttons .btn-email:hover {
-  background-color: #D9431E; /* Darker orange on hover */
-  transform: scale(1.05); /* Zoom effect */
-}
 
 	
 #darkModeToggle {
