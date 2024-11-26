@@ -1132,8 +1132,8 @@ body.offcanvas .colorlib-nav-toggle {
 .timeline-centered .timeline-entry:nth-child(2) .timeline-icon:before {
     content: "\f1c0"; /* Font Awesome database icon */
     font-family: "FontAwesome";
-    width: 30px; /* Smaller size */
-    height: 30px;
+    width: 40px; /* Smaller size */
+    height: 40px;
     font-size: 16px; /* Adjust font size */
 }
 }
@@ -1142,26 +1142,35 @@ body.offcanvas .colorlib-nav-toggle {
 .timeline-centered .timeline-entry:nth-child(3) .timeline-icon:before {
     content: "\f0c0"; /* Font Awesome users icon */
     font-family: "FontAwesome";
+    width: 40px; /* Smaller size */
+    height: 40px;
+    font-size: 16px; /* Adjust font size */
 }
 
 /* Call Centre Icon */
 .timeline-centered .timeline-entry:nth-child(4) .timeline-icon:before {
     content: "\f095"; /* Font Awesome phone icon */
     font-family: "FontAwesome";
+    width: 40px; /* Smaller size */
+    height: 40px;
+    font-size: 16px; /* Adjust font size */
 }
 
 /* Data Ops Analyst Icon */
 .timeline-centered .timeline-entry:nth-child(5) .timeline-icon:before {
     content: "\f233"; /* Font Awesome database icon (reused) */
     font-family: "FontAwesome";
+    width: 40px; /* Smaller size */
+    height: 40px;
+    font-size: 16px; /* Adjust font size */
 }
 
 /* Education Section */
 
 /* University Graduation Icon */
 .timeline-centered .timeline-entry:nth-last-child(2) .timeline-icon:before {
-    width: 23px; /* Smaller size */
-    height: 23px;
+    width: 40px; /* Smaller size */
+    height: 40px;
     font-size: 16px; /* Adjust font size */
     content: "\f02d"; /* Font Awesome graduation cap icon */
     font-family: "FontAwesome";
@@ -1171,8 +1180,8 @@ body.offcanvas .colorlib-nav-toggle {
 .timeline-centered .timeline-entry:nth-last-child(1) .timeline-icon:before {
     content: "\f19d"; /* Font Awesome book icon */
     font-family: "FontAwesome";
-    width: 23px; /* Smaller size */
-    height: 23px;
+    width: 40px; /* Smaller size */
+    height: 40px;
     font-size: 16px; /* Adjust font size */
 }
 .timeline-centered
