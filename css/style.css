@@ -375,12 +375,14 @@ figure figcaption {
 	text-align: center;
 	color: #2F3C7E;
 	padding-right: 0.3em;
-	margin-top: -55px; /* Moves the image 20px higher */
+	margin-top: -70px; /* Moves the image 20px higher */
 
 }
 #colorlib-aside #colorlib-main-menu {
 	display: block;
 	width: 100%;
+	margin-top: 15px; /* Moves the image 20px higher */
+
 }
 #colorlib-aside #colorlib-main-menu .collapse {
 	display: block !important;
