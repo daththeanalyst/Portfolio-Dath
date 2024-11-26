@@ -249,9 +249,12 @@ populateExp_Edu(education, "education");
 populateLinks(footer, "footer");
 // Add this snippet to remove the last button in the Contact section
 document.addEventListener("DOMContentLoaded", () => {
-   const buttonsContainer = document.querySelector(".colorlib-contact div[style='display: flex; gap: 10px; margin-top: 20px;']"); // Update the container selector if necessary
-   const buttons = buttonsContainer.querySelectorAll(".btn-custom");
-   if (buttons.length > 0) {
-      buttons[buttons.length - 1].remove();
-   }
+    const buttonsContainer = document.querySelector(".colorlib-contact div[style*='display: flex; gap: 10px;']");
+    if (buttonsContainer) {
+        const buttons = buttonsContainer.querySelectorAll(".btn-custom");
+        if (buttons.length > 0) {
+            buttons[buttons.length - 1].remove();
+        }
+    }
 });
+
