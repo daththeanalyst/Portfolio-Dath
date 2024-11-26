@@ -300,6 +300,8 @@ figure figcaption {
 	transition: 0.5s;
 	border: 3px solid #2F3C7E; /* Blue border that matches the theme */
     	border-radius: 10px; /* Optional: to make the edges rounded */
+	transform: scale(0.9); /* Scale down to 90% */
+    	transform-origin: top left; /* Ensure scaling starts from the top left */
 }
 @media screen and (max-width: 768px) {
 	#colorlib-aside {
