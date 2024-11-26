@@ -2238,7 +2238,7 @@ ul {
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
-	margin-bottom: -30px; /* Add spacing between accordion headers */
+	margin-bottom: 45px; /* Add spacing between accordion headers */
 
 }
 
