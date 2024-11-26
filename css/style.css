@@ -184,13 +184,6 @@ body {
 /* For the Certifications container itself */
 /* Styling for the main certification container */
 /* For the individual certification list items */
-#certifications{
-    margin-top: -30px; /* Adds space above the certifications section, including the title */
-
-}
-#certifications h2 {
-    margin-top: -50px; /* Adds space only above the title */
-}
 #certifications li {
     background-color: #ADBECF; /* Blue background for each certification */
     color: #2F3C7E; /* Set text color to blue to match the theme */
