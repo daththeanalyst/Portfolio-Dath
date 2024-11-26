@@ -24,7 +24,7 @@ body {
   font-family: "Quicksand", Arial, sans-serif;
   line-height: 1.8;
   color: #2F3C7E; /* Blue text color */
-  background-color: #FBEAEB; /* Pastel Pink background */
+  background-color: #FFFFFF; /* Pastel Pink background */
 }
 }
 .colorlib-narrow-content {
@@ -293,7 +293,7 @@ figure figcaption {
 	width: 300px;
 	position: fixed;
 	z-index: 1001;
-    	background-color: #FBEAEB; /* Updated to Pastel Pink for Sidebar Background */
+    	background-color: #FFFFFF; /* Updated to Pastel Pink for Sidebar Background */
 	color: #2F3C7E; /* Blue text color */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
@@ -310,7 +310,7 @@ figure figcaption {
 		-o-transform: translateX(-300px);
 		transform: translateX(-300px);
 		padding-top: 4em;
-    		background-color: #FBEAEB; /* Updated to Pastel Pink for Sidebar Background */
+    		background-color: #FFFFFF; /* Updated to Pastel Pink for Sidebar Background */
 		height: auto;
 	}
 	.resume-content img {
@@ -681,7 +681,7 @@ body.offcanvas #colorlib-aside {
 	-o-transform: translateX(0);
 	transform: translateX(0);
 	width: 372px;
-	background-color: #FBEAEB;
+	background-color: #FFFFFF;
 	z-index: 999;
 	position: fixed;
 }
@@ -760,7 +760,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 #colorlib-footer2 {
     	background-color: #2F3C7E; /* Blue footer background */
-	color: #FBEAEB; /* Pastel Pink text */
+	color: #FFFFFF; /* Pastel Pink text */
 	width: 100%;
 	padding-bottom: 3em;
 	padding-top: 2em;
@@ -845,9 +845,9 @@ body.offcanvas .colorlib-nav-toggle {
 
 .fancy-collapse-panel .panel-default > .panel-heading {
 	padding: 0;
-	background-color: #FBEAEB; /* Blue background for accordion header */
+	background-color: #FFFFFF; /* Blue background for accordion header */
     	color: #2F3C7E; /* Pastel Pink text */
-    	border-bottom: 1px solid #FBEAEB; /* Border to match the pastel theme */
+    	border-bottom: 1px solid #FFFFFF; /* Border to match the pastel theme */
     	padding: 20px 25px;
 }
 
@@ -930,7 +930,7 @@ body.offcanvas .colorlib-nav-toggle {
 	text-transform: uppercase;
 	font-family: "Quicksand", Arial, sans-serif;
     	background-color: #ADBECF; /* Blue background for accordion header */
-    	color: #FBEAEB; /* Pastel Pink text */
+    	color: #FFFFFF; /* Pastel Pink text */
 	position: relative;
 	-webkit-box-shadow: none !important;
 	-moz-box-shadow: none !important;
@@ -1988,7 +1988,7 @@ body.offcanvas .colorlib-nav-toggle {
 	box-shadow: none;
 	background: transparent;
     	border: 1px solid #2F3C7E; /* Blue border */
-    	background: #FBEAEB; /* Pastel Pink input background */
+    	background: #FFFFFF; /* Pastel Pink input background */
 	color: #2F3C7E; /* Blue text */
 	height: 54px;
 	font-size: 16px;
@@ -2191,7 +2191,7 @@ ul {
 	padding-left: 20px;
 	padding-right: 20px;
 	/* margin: 30px auto 20px; */
-    	background-color: #FBEAEB !important; /* Blue background for accordion header */
+    	background-color: #FFFFFF !important; /* Blue background for accordion header */
     	color: #2F3C7E !important; /* Black text for better readability */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -2207,7 +2207,7 @@ ul {
 	-webkit-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
-	background-color: #FBEAEB !important; /* Teal background for the headers of the accordion */	
+	background-color: #FFFFFF !important; /* Teal background for the headers of the accordion */	
 	color: #2F3C7E !important; /* Blue text color */
 
 }
@@ -2249,7 +2249,7 @@ ul {
 
 .submenu {
 	display: none;
-   	background-color: #FBEAEB !important; /* Blue background for expanded content */
+   	background-color: #FFFFFF !important; /* Blue background for expanded content */
 	color: #2F3C7E !important; /* Blue text color */
 	font-size: 14px;
 	padding-left: 0px;
@@ -2370,7 +2370,7 @@ span {
 }
 
 :root {
-	--footer-bg: #FBEAEB; /* Update to Pastel Pink to match the new theme */
+	--footer-bg: #FFFFFF; /* Update to Pastel Pink to match the new theme */
 	--color: #2F3C7E; /* Update to Blue for primary text color */
 	--color-smooth: #A7BEAE; /* Muted Teal for softer or secondary elements */
 	--input-border: #B85042; /* Terracotta Red for input borders or accents */
