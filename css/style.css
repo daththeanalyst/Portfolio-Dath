@@ -1918,8 +1918,8 @@ body.offcanvas .colorlib-nav-toggle {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background: #3B4A99 !important/* Lighter blue on hover */ ;
-	border-color: #3B4A99 /* Lighter blue border on hover */ !important;
+	background: #ADBECF !important/* Lighter blue on hover */ ;
+	border-color: #2F3C7E /* Lighter blue border on hover */ !important;
 }
 .btn-primary.btn-outline {
 	background: transparent;
