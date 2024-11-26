@@ -189,7 +189,7 @@ body {
 
 }
 #certifications h2 {
-    margin-top: 30px; /* Adds space only above the title */
+    margin-top: -50px; /* Adds space only above the title */
 }
 #certifications li {
     background-color: #ADBECF; /* Blue background for each certification */
