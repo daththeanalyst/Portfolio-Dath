@@ -777,7 +777,6 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-about,
 .colorlib-installation,
 .colorlib-services,
-.colorlib-contact,
 .colorlib-footer{
 	padding-top: 3em;
 	padding-bottom: 0em;
@@ -799,7 +798,6 @@ body.offcanvas .colorlib-nav-toggle {
 	.colorlib-work,
 	.colorlib-about,
 	.colorlib-installation,
-	.colorlib-contact,
 	.colorlib-services{
 		padding-top: 2em;
 		padding-bottom: 0em;
@@ -822,6 +820,24 @@ body.offcanvas .colorlib-nav-toggle {
 	padding-top: 2em;
 	padding-right: 2em;
 }
+	.colorlib-contact {
+    padding-top: 8em; /* Increase top padding */
+    padding-bottom: 8em; /* Increase bottom padding */
+    min-height: 500px; /* Set a minimum height */
+    clear: both;
+    width: 100%;
+    display: block;
+}
+
+/* For mobile-specific adjustments */
+@media screen and (max-width: 768px) {
+    .colorlib-contact {
+        padding-top: 6em; /* Slightly smaller padding on mobile */
+        padding-bottom: 6em;
+        min-height: 400px; /* Ensure enough height on smaller screens */
+    }
+}
+
 #colorlib-footer2 .h2 {
 	color: red;
 	text-align: center;
