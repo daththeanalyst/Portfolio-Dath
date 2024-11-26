@@ -20,6 +20,28 @@
 *	Edit this section
 *
 * ======================================================= */
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #2F3C7E; /* Blue Background */
+  color: #ffffff; /* White Text */
+}
+
+#darkModeToggle {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #2F3C7E; /* Button Blue Background */
+  color: #ffffff; /* White Text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#darkModeToggle:hover {
+  background-color: #ffffff; /* White Background on Hover */
+  color: #2F3C7E; /* Blue Text on Hover */
+}
+
 body {
   font-family: "Quicksand", Arial, sans-serif;
   line-height: 1.8;
@@ -2196,8 +2218,7 @@ body.offcanvas .colorlib-nav-toggle {
 .bmc-div {
 	margin-top: 15px;
 	margin-bottom: 15px;
-	border: 3px solid #2F3C7E; /* Blue border */
-	border-radius: 10px; /* Optional: Add rounded corners */
+	
 
 }
 
