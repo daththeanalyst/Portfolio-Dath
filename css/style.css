@@ -1163,13 +1163,13 @@ body.offcanvas .colorlib-nav-toggle {
     width: 30px; /* Smaller size */
     height: 30px;
     font-size: 16px; /* Adjust font size */
-    content: "\f19d"; /* Font Awesome graduation cap icon */
+    content: "\f02d"; /* Font Awesome graduation cap icon */
     font-family: "FontAwesome";
 }
 
 /* School Icon */
 .timeline-centered .timeline-entry:nth-last-child(1) .timeline-icon:before {
-    content: "\f02d"; /* Font Awesome book icon */
+    content: "\f19d"; /* Font Awesome book icon */
     font-family: "FontAwesome";
     width: 30px; /* Smaller size */
     height: 30px;
