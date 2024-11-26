@@ -777,6 +777,7 @@ body.offcanvas .colorlib-nav-toggle {
 .colorlib-about,
 .colorlib-installation,
 .colorlib-services,
+.colorlib-contact,
 .colorlib-footer{
 	padding-top: 3em;
 	padding-bottom: 0em;
@@ -798,6 +799,7 @@ body.offcanvas .colorlib-nav-toggle {
 	.colorlib-work,
 	.colorlib-about,
 	.colorlib-installation,
+	.colorlib-contact,
 	.colorlib-services{
 		padding-top: 2em;
 		padding-bottom: 0em;
@@ -811,25 +813,6 @@ body.offcanvas .colorlib-nav-toggle {
 		display: flex;
 		flex-direction: column;
 	}
-}
-.colorlib-contact {
-	padding-top: 6em; /* Increase the top padding */
-	padding-bottom: 6em; /* Increase the bottom padding */
-	min-height: 300px; /* Ensure a minimum height */
-	clear: both;
-	width: 100%;
-	display: block;
-}
-
-/* Mobile-specific adjustments for "Contact" section */
-@media screen and (max-width: 768px) {
-	.colorlib-contact {
-		padding-top: 4em; /* Slightly reduce padding for smaller screens */
-		padding-bottom: 4em; /* Maintain sufficient bottom padding */
-		min-height: 250px; /* Ensure enough height on mobile */
-	}
-}
-
 
 #colorlib-footer2 {
     	background-color: #2F3C7E; /* Blue footer background */
