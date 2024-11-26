@@ -813,22 +813,43 @@ body.offcanvas .colorlib-nav-toggle {
 	}
 }
 .colorlib-contact {
-	padding-top: 6em; /* Increase the top padding */
-	padding-bottom: 6em; /* Increase the bottom padding */
-	min-height: 300px; /* Ensure a minimum height */
-	clear: both;
-	width: 100%;
-	display: block;
+    padding-top: 8em; /* Increased top padding for visibility */
+    padding-bottom: 8em; /* Increased bottom padding */
+    min-height: 600px; /* Ensures enough height to meet the scroll threshold */
+    clear: both;
+    width: 100%;
+    display: block;
 }
 
-/* Mobile-specific adjustments for "Contact" section */
+/* Mobile-specific adjustments */
 @media screen and (max-width: 768px) {
-	.colorlib-contact {
-		padding-top: 4em; /* Slightly reduce padding for smaller screens */
-		padding-bottom: 4em; /* Maintain sufficient bottom padding */
-		min-height: 250px; /* Ensure enough height on mobile */
-	}
+    .colorlib-contact {
+        padding-top: 6em; /* Slightly reduced padding for smaller screens */
+        padding-bottom: 6em; /* Maintain bottom padding for spacing */
+        min-height: 400px; /* Ensure visibility on smaller displays */
+    }
 }
+.colorlib-contact:target {
+    outline: none; /* Remove any default browser outline on focus */
+    animation: fadeIn 0.3s ease-in-out; /* Optional: Add a smooth animation when targeted */
+}
+@media screen and (max-width: 768px) {
+    #colorlib-aside #colorlib-main-menu ul li.active a {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        padding: 6px 10px; /* Ensure clickable area is large enough */
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 
 
 #colorlib-footer2 {
