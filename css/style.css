@@ -401,7 +401,7 @@ figure figcaption {
 #colorlib-aside #colorlib-main-menu {
 	display: block;
 	width: 100%;
-	margin-top: 50px; /* Moves the image 20px higher */
+	margin-top: 65px; /* Moves the image 20px higher */
 
 }
 #colorlib-aside #colorlib-main-menu .collapse {
