@@ -479,8 +479,8 @@ figure figcaption {
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover {
 	text-decoration: none;
-    	color: #ffffff; /* White text on hover */
-    	background-color: #2F3C7E; /* Blue background on hover */
+    	color: #2F3C7E; /* White text on hover */
+    	background-color: #ffffff; /* Blue background on hover */
 
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover:after {
@@ -494,7 +494,7 @@ figure figcaption {
 #colorlib-aside #colorlib-main-menu ul li.active a {
 	font-size: 15px;
 	font-weight: 600;
-	color: #ADBECF; /* Light Blue for active menu items */
+	color: #FF5733; /* Red for active menu items */
 
 }
 #colorlib-aside #colorlib-main-menu ul li.active a:after {
