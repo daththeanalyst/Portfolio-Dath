@@ -20,9 +20,7 @@
 *	Edit this section
 *
 * ======================================================= */
-.timeline-centered .timeline-entry .timeline-label p:last-of-type {
-    display: none; /* Hides the last bullet point */
-}
+
 .btn-custom {
    text-decoration: none;
    padding: 10px 20px;
