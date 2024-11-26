@@ -184,6 +184,10 @@ body {
 /* For the Certifications container itself */
 /* Styling for the main certification container */
 /* For the individual certification list items */
+#certifications {
+    padding-top: 30px;
+}
+
 #certifications li {
     background-color: #ADBECF; /* Blue background for each certification */
     color: #2F3C7E; /* Set text color to blue to match the theme */
