@@ -1132,6 +1132,10 @@ body.offcanvas .colorlib-nav-toggle {
 .timeline-centered .timeline-entry:nth-child(2) .timeline-icon:before {
     content: "\f1c0"; /* Font Awesome database icon */
     font-family: "FontAwesome";
+    width: 30px; /* Smaller size */
+    height: 30px;
+    font-size: 16px; /* Adjust font size */
+}
 }
 
 /* Co-Founder Icon */
@@ -1148,7 +1152,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 /* Data Ops Analyst Icon */
 .timeline-centered .timeline-entry:nth-child(5) .timeline-icon:before {
-    content: "\f1c0"; /* Font Awesome database icon (reused) */
+    content: "\f233"; /* Font Awesome database icon (reused) */
     font-family: "FontAwesome";
 }
 
@@ -1156,6 +1160,9 @@ body.offcanvas .colorlib-nav-toggle {
 
 /* University Graduation Icon */
 .timeline-centered .timeline-entry:nth-last-child(2) .timeline-icon:before {
+    width: 30px; /* Smaller size */
+    height: 30px;
+    font-size: 16px; /* Adjust font size */
     content: "\f19d"; /* Font Awesome graduation cap icon */
     font-family: "FontAwesome";
 }
@@ -1164,6 +1171,9 @@ body.offcanvas .colorlib-nav-toggle {
 .timeline-centered .timeline-entry:nth-last-child(1) .timeline-icon:before {
     content: "\f02d"; /* Font Awesome book icon */
     font-family: "FontAwesome";
+    width: 30px; /* Smaller size */
+    height: 30px;
+    font-size: 16px; /* Adjust font size */
 }
 .timeline-centered
 	.timeline-entry
