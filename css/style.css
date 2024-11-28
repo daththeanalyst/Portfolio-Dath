@@ -928,15 +928,14 @@ body.offcanvas .colorlib-nav-toggle {
     	padding: 20px 25px;
 }
 
-<!-----projectcss------------ > #projects {
+<!-----projectcss------------ > 
+#projects {
 	padding: 50px 15px;
 	border-bottom: 1px solid #2F3C7E;
 	text-align: center;
     	background-color: #ADBECF !important; /* Blue background for Projects section */
     	color: #2F3C7E; /* Blue text for better contrast */
 	margin-bottom: 45px; /* Adds 30px of space below the Projects section */
-
-
 
 }
 
@@ -965,10 +964,10 @@ body.offcanvas .colorlib-nav-toggle {
 .project-image {
 	float: left;
 }
-/* 
-.project-card {
-	height: 150px;
-} */
+
+.project-card:hover {
+    	background-color: #ADBECF; /* Lighter blue background on hover */
+} 
 
 .project-info {
 	position: absolute;
