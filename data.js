@@ -89,7 +89,8 @@ export const projects = {
       projectName: "Churn Prediction Model",
       image: "images/churn-prediction.png",
       summary:
-        "<strong>Amazon Price Tracker</strong>:<br> Automated the process of monitoring product prices on Amazon. Web scraping was used to extract price and product information, which was stored in a CSV file. The tool sends email alerts when prices drop below a specified threshold, ensuring users never miss a deal.",      preview: "https://github.com/daththeanalyst/Churn-Prediction-Model", // GitHub link
+        "<strong>Churn Prediction Model</strong>:<br>Built a machine learning model to predict customer churn, achieving 86.75% accuracy with Gradient Boosting. Key predictors included Age, Balance, and NumOfProducts.",
+      preview: "https://github.com/daththeanalyst/Churn-Prediction-Model", // GitHub link
       techStack: ["Python", "Matplotlib", "Seaborn", "Scikit-learn"],
     },
     {
