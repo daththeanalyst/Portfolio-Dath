@@ -71,7 +71,8 @@ export const projects = {
       projectName: "Data Cleaning Project SQL",
       image: "images/data-cleaning.png",
       summary:
-        "<strong>Layoffs Dataset Cleaning Project</strong>:<br> Conducted comprehensive data cleaning and standardization on a layoffs dataset using SQL. Ensured consistency by addressing duplicates, null values, and inconsistent entries, preparing the data for advanced analysis.",      preview: "https://github.com/daththeanalyst/Data-Cleaning-Project-SQL", // GitHub link
+        "<strong>Layoffs Dataset Cleaning Project</strong>:<br> Performed comprehensive cleaning on a layoffs dataset using SQL. Focused on removing duplicates, standardizing data, and handling null values. Prepared the dataset for further EDA and visualizations.",
+      preview: "https://github.com/daththeanalyst/Data-Cleaning-Project-SQL", // GitHub link
       techStack: ["SQL", "Data Cleaning"],
     },
     {
