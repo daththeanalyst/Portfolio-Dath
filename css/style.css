@@ -20,7 +20,15 @@
 *	Edit this section
 *
 * ======================================================= */
+.project-title h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2F3C7E; /* Blue color */
+  margin-bottom: 10px;
+  text-align: left;
+}
 
+	
 .btn-custom {
    text-decoration: none;
    padding: 10px 20px;
