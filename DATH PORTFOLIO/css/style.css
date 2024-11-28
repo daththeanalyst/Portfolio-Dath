@@ -689,6 +689,13 @@ body.offcanvas .colorlib-nav-toggle {
 	border-bottom: 1px solid #dcd9d9;
 	text-align: center;
 }
+#projects .accordion .link:hover {
+    background-color: transparent !important; /* Remove the hover background color */
+}
+
+#projects .accordion .link {
+    background-color: inherit; /* Keep the original background */
+}
 
 #projects h2 {
 	color: #374054;
