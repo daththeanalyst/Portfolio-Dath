@@ -102,7 +102,9 @@ function populateProjects(items, id) {
     let divResumeContentLeft = document.createElement("div");
     divResumeContentLeft.className = "resume-content";
     divResumeContentLeft.id = "left-div";
+    divResumeContentLeft.style.float = "right"; // Align the image to the right
     divResumeContentLeft.append(img);
+
   
     let divResumeContentRight = document.createElement("div");
     divResumeContentRight.className = "resume-content";
