@@ -954,6 +954,10 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project {
+	display: flex; /* Use flexbox to align content side by side */
+    	flex-direction: row-reverse; /* Put the image on the right */
+    	justify-content: space-between; /* Space out the image and text */
+    	align-items: center; /* Vertically align items */
 	position: relative;
 	max-width: 900px;
 	margin: 0 auto 30px auto;
@@ -970,7 +974,9 @@ body.offcanvas .colorlib-nav-toggle {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
 .project-image {
-	float: right;
+	flex: 1; /* Allow the image to take equal space */
+    	max-width: 200px; /* Set a fixed width for the image */
+    	margin-left: 20px; /* Add spacing between text and image */
 }
 
 .project-card:hover {
@@ -984,6 +990,8 @@ body.offcanvas .colorlib-nav-toggle {
 	margin-left: 300px;
 	padding: 15px;
 	color: #2F3C7E;
+	flex: 2; /* Allow the text to take more space */
+   	text-align: left; /* Align the text to the left */
 
 	
 }
