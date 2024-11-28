@@ -64,21 +64,21 @@ export const projects = {
       projectName: "Cargo Ship Project",
       image: "images/cargo-ship.png",
       summary:
-        "<strong>AIS Data Analysis for Maritime Operations</strong><br>: Analyzed vessel operations using AIS data to uncover patterns in navigational efficiency and fleet performance. Cleaned data in Python and created interactive Power BI dashboards to provide actionable insights for optimizing maritime operations.",      preview: "https://github.com/daththeanalyst/Cargo-Ship-Dataset-Deep-Analysis", // GitHub link
+        "<strong>AIS Data Analysis for Maritime Operations</strong>:<br> Analyzed vessel operations using AIS data to uncover patterns in navigational efficiency and fleet performance. Cleaned data in Python and created interactive Power BI dashboards to provide actionable insights for optimizing maritime operations.",      preview: "https://github.com/daththeanalyst/Cargo-Ship-Dataset-Deep-Analysis", // GitHub link
       techStack: ["Python", "SQL", "Power BI", "Pandas", "NumPy"],
     },
     {
       projectName: "Data Cleaning Project SQL",
       image: "images/data-cleaning.png",
       summary:
-        "<strong>Layoffs Dataset Cleaning Project</strong><br>: Conducted comprehensive data cleaning and standardization on a layoffs dataset using SQL. Ensured consistency by addressing duplicates, null values, and inconsistent entries, preparing the data for advanced analysis.",      preview: "https://github.com/daththeanalyst/Data-Cleaning-Project-SQL", // GitHub link
+        "<strong>Layoffs Dataset Cleaning Project</strong>:<br> Conducted comprehensive data cleaning and standardization on a layoffs dataset using SQL. Ensured consistency by addressing duplicates, null values, and inconsistent entries, preparing the data for advanced analysis.",      preview: "https://github.com/daththeanalyst/Data-Cleaning-Project-SQL", // GitHub link
       techStack: ["SQL", "Data Cleaning"],
     },
     {
       projectName: "Fitness App Analysis Project",
       image: "images/fitness-app-analysis.png",
       summary:
-        "<strong>Fitness App Analysis Project</strong><br>: Analyzed Google Play Store data to derive insights into the fitness application industry. Focused on performance, user engagement, and features of fitness apps compared to other app categories using Python for data cleaning and Power BI for interactive visualizations.",
+        "<strong>Fitness App Analysis Project</strong>:<br> Analyzed Google Play Store data to derive insights into the fitness application industry. Focused on performance, user engagement, and features of fitness apps compared to other app categories using Python for data cleaning and Power BI for interactive visualizations.",
       preview: "https://github.com/daththeanalyst/Fitness-App-Analysis-Project", // GitHub link
       techStack: ["Python", "Power BI", "Pandas", "NumPy"],
     },
@@ -88,14 +88,14 @@ export const projects = {
       projectName: "Churn Prediction Model",
       image: "images/churn-prediction.png",
       summary:
-        "<strong>Amazon Price Tracker</strong><br>: Automated the process of monitoring product prices on Amazon. Web scraping was used to extract price and product information, which was stored in a CSV file. The tool sends email alerts when prices drop below a specified threshold, ensuring users never miss a deal.",      preview: "https://github.com/daththeanalyst/Churn-Prediction-Model", // GitHub link
+        "<strong>Amazon Price Tracker</strong>:<br> Automated the process of monitoring product prices on Amazon. Web scraping was used to extract price and product information, which was stored in a CSV file. The tool sends email alerts when prices drop below a specified threshold, ensuring users never miss a deal.",      preview: "https://github.com/daththeanalyst/Churn-Prediction-Model", // GitHub link
       techStack: ["Python", "Matplotlib", "Seaborn", "Scikit-learn"],
     },
     {
       projectName: "Amazon Web Scraping",
       image: "images/web-scraping.png",
       summary:
-        "<strong>Amazon Price Tracker</strong><br>: Automated the process of monitoring product prices on Amazon. Web scraping was used to extract price and product information, which was stored in a CSV file. The tool sends email alerts when prices drop below a specified threshold, ensuring users never miss a deal.",      preview: "https://github.com/daththeanalyst/Amazon-Web-Scraping-Project", // GitHub link
+        "<strong>Amazon Price Tracker</strong>:<br> Automated the process of monitoring product prices on Amazon. Web scraping was used to extract price and product information, which was stored in a CSV file. The tool sends email alerts when prices drop below a specified threshold, ensuring users never miss a deal.",      preview: "https://github.com/daththeanalyst/Amazon-Web-Scraping-Project", // GitHub link
       techStack: ["Python", "BeautifulSoup", "Requests", "Pandas"],
     },
   ],
