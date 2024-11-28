@@ -132,16 +132,6 @@ export const experience = [
     icon: "user-tie",
   },
   {
-    title: "New Democracy Political Party, Athens, Greece",
-    duration: "May 2023 - July 2023",
-    subtitle: "Call Centre Agent",
-    details: [
-      "Managed 350+ calls daily, setting a record with 700 calls in a day, influencing 10-50 prospective regional elective representatives.",
-    ],
-    tags: ["Communication", "Customer Engagement", "High-Volume Calling"],
-    icon: "phone",
-  },
-  {
     title: "Globassure Insurance Agents, Athens, Greece",
     duration: "June 2022 - August 2022",
     subtitle: "Data Ops Analyst",
