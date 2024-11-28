@@ -64,16 +64,14 @@ export const projects = {
       projectName: "Cargo Ship Project",
       image: "images/cargo-ship.png",
       summary:
-        "Analyzed tanker movements using AIS data to optimize shipping routes, improve fuel efficiency, assess port performance, and develop a predictive model for ETA.",
-      preview: "https://github.com/daththeanalyst/Cargo-Ship-Dataset-Deep-Analysis", // GitHub link
+        "<strong>AIS Data Analysis for Maritime Operations</strong>: Analyzed vessel operations using AIS data to uncover patterns in navigational efficiency and fleet performance. Cleaned data in Python and created interactive Power BI dashboards to provide actionable insights for optimizing maritime operations.",      preview: "https://github.com/daththeanalyst/Cargo-Ship-Dataset-Deep-Analysis", // GitHub link
       techStack: ["Python", "SQL", "Power BI", "Pandas", "NumPy"],
     },
     {
       projectName: "Data Cleaning Project SQL",
       image: "images/data-cleaning.png",
       summary:
-        "Cleaned and standardized datasets, removing duplicates and preparing data for analysis.",
-      preview: "https://github.com/daththeanalyst/Data-Cleaning-Project-SQL", // GitHub link
+        "<strong>Layoffs Dataset Cleaning Project</strong>: Conducted comprehensive data cleaning and standardization on a layoffs dataset using SQL. Ensured consistency by addressing duplicates, null values, and inconsistent entries, preparing the data for advanced analysis.",      preview: "https://github.com/daththeanalyst/Data-Cleaning-Project-SQL", // GitHub link
       techStack: ["SQL", "Data Cleaning"],
     },
     {
@@ -90,16 +88,14 @@ export const projects = {
       projectName: "Churn Prediction Model",
       image: "images/churn-prediction.png",
       summary:
-        "Built a churn prediction model to identify customers likely to leave, leveraging machine learning and advanced data analysis techniques.",
-      preview: "https://github.com/daththeanalyst/Churn-Prediction-Model", // GitHub link
+        "<strong>Amazon Price Tracker</strong>: Automated the process of monitoring product prices on Amazon. Web scraping was used to extract price and product information, which was stored in a CSV file. The tool sends email alerts when prices drop below a specified threshold, ensuring users never miss a deal.",      preview: "https://github.com/daththeanalyst/Churn-Prediction-Model", // GitHub link
       techStack: ["Python", "Matplotlib", "Seaborn", "Scikit-learn"],
     },
     {
       projectName: "Amazon Web Scraping",
       image: "images/web-scraping.png",
       summary:
-        "Developed a Python-based tool to scrape Amazon product data, track prices, and send alerts for price drops.",
-      preview: "https://github.com/daththeanalyst/Amazon-Web-Scraping-Project", // GitHub link
+        "<strong>Amazon Price Tracker</strong>: Automated the process of monitoring product prices on Amazon. Web scraping was used to extract price and product information, which was stored in a CSV file. The tool sends email alerts when prices drop below a specified threshold, ensuring users never miss a deal.",      preview: "https://github.com/daththeanalyst/Amazon-Web-Scraping-Project", // GitHub link
       techStack: ["Python", "BeautifulSoup", "Requests", "Pandas"],
     },
   ],
