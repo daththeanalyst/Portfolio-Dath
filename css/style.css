@@ -970,7 +970,7 @@ body.offcanvas .colorlib-nav-toggle {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
 .project-image {
-	float: left;
+	float: right;
 }
 
 .project-card:hover {
