@@ -80,7 +80,7 @@ export const projects = {
       image: "images/fitness-app-analysis.png",
       summary:
         "<strong>Fitness App Analysis Project</strong>:<br> Analyzed Google Play Store data to derive insights into the fitness application industry. Focused on user engagement, performance, and features of fitness apps compared to other app categories using Python for data cleaning and Power BI for interactive visualizations.",
-      preview: "https://github.com/daththeanalyst/Fitness-App-Analysis-Project", // GitHub link
+      preview: "https://github.com/daththeanalyst/Google-Play-Store-Analysis", // GitHub link
       techStack: ["Python", "Power BI", "Pandas", "NumPy"],
     },
   ],
