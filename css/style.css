@@ -44,13 +44,13 @@
 }
 
 .btn-custom:hover {
-   background-color: #ADBECF; /* Lighter blue on hover */
+   background-color: #e6e6fa; /* Lighter blue on hover */
    color: #0000cd ; /* Blue text */
 }
 
 
 body {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family: "ImperialText", "Helvetica Neue", Arial, sans-serif;
   line-height: 1.8;
   color: #0000cd ; /* Blue text color */
   background-color: #FFFFFF; /* Pastel Pink background */
@@ -193,7 +193,7 @@ body {
 /* Styling for the main certification container */
 /* For the individual certification list items */
 #certifications li {
-    background-color: #ADBECF; /* Blue background for each certification */
+    background-color: #e6e6fa; /* Blue background for each certification */
     color: #0000cd ; /* Set text color to blue to match the theme */
     border: 2px solid #0000cd ; /* Optional: Adds border to match theme */
     padding: 15px; /* Adjust padding to add space around items */
@@ -941,7 +941,7 @@ body.offcanvas .colorlib-nav-toggle {
 	padding: 50px 15px;
 	border-bottom: 1px solid #0000cd ;
 	text-align: center;
-    	background-color: #ADBECF !important; /* Blue background for Projects section */
+    	background-color: #e6e6fa !important; /* Blue background for Projects section */
     	color: #0000cd ; /* Blue text for better contrast */
 	margin-bottom: 45px; /* Adds 30px of space below the Projects section */
 
@@ -962,13 +962,13 @@ body.offcanvas .colorlib-nav-toggle {
 	max-width: 900px;
 	margin: 0 auto 30px auto;
 	overflow: hidden;
-	background: #ADBECF !important;
+	background: #e6e6fa !important;
 	border-radius: 14px;
 	border: 8px solid #0000cd ; /* Add a blue border around each project */
 
 }
 .project:hover {
-    background-color: #ADBECF; /* Lighter blue background on hover */
+    background-color: #e6e6fa; /* Lighter blue background on hover */
     color: #0000cd ; /* Blue text on hover */
     transform: scale(1.05); /* Slight scaling effect */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
@@ -980,7 +980,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .project-card:hover {
-    	background-color: #ADBECF; /* Lighter blue background on hover */
+    	background-color: #e6e6fa; /* Lighter blue background on hover */
 } 
 
 .project-info {
@@ -1029,7 +1029,7 @@ body.offcanvas .colorlib-nav-toggle {
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	font-family: "Quicksand", Arial, sans-serif;
-    	background-color: #ADBECF; /* Blue background for accordion header */
+    	background-color: #e6e6fa; /* Blue background for accordion header */
     	color: #FFFFFF; /* Pastel Pink text */
 	position: relative;
 	-webkit-box-shadow: none !important;
@@ -1046,7 +1046,7 @@ body.offcanvas .colorlib-nav-toggle {
 	-o-box-shadow: none !important;
 	box-shadow: none !important;
 	border: none;
-	background-color: #ADBECF;
+	background-color: #e6e6fa;
 }
 
 .panel-heading a:after {
@@ -1075,9 +1075,9 @@ body.offcanvas .colorlib-nav-toggle {
 	padding: 1.5em;
 	margin-top: 5px;
 	border: 1px solid #e6e6e6 !important;
-    	background-color: #ADBECF; /* Change background to Muted Teal */
-    	color: #ADBECF; /* Keep the text color Blue for contrast */
-	border: 1px solid #ADBECF; /* Optional: Create a Muted Teal border to match the background */
+    	background-color: #e6e6fa; /* Change background to Muted Teal */
+    	color: #e6e6fa; /* Keep the text color Blue for contrast */
+	border: 1px solid #e6e6fa; /* Optional: Create a Muted Teal border to match the background */
 
 }
 
@@ -1111,7 +1111,7 @@ body.offcanvas .colorlib-nav-toggle {
 	position: absolute;
 	display: block;
 	width: 4px;
-    	background: #ADBECF; /* Muted Teal color for updated theme */
+    	background: #e6e6fa; /* Muted Teal color for updated theme */
 	top: 20px;
 	bottom: 20px;
 	margin-left: 29px;
@@ -1134,7 +1134,7 @@ body.offcanvas .colorlib-nav-toggle {
 	display: block;
 	width: 40px;
 	height: 40px;
-    	background: #ADBECF; /* Updated to Terracotta Red */
+    	background: #e6e6fa; /* Updated to Terracotta Red */
 	color: white; /* White icon to make it stand out */
 	-webkit-border-radius: 50%;
 	-moz-border-radius: 50%;
@@ -1217,7 +1217,7 @@ body.offcanvas .colorlib-nav-toggle {
 	.timeline-entry
 	.timeline-entry-inner
 	.timeline-icon.color-3 {
-	background: #ADBECF;
+	background: #e6e6fa;
 }
 .timeline-centered
 	.timeline-entry
@@ -1243,7 +1243,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 	position: relative;
-    	background: #ADBECF; /* Updated to Muted Teal */
+    	background: #e6e6fa; /* Updated to Muted Teal */
     	color: #0000cd ; /* Blue text to match the theme */
 	padding: 1.5em;
 	margin-left: 60px;
@@ -2017,7 +2017,7 @@ body.offcanvas .colorlib-nav-toggle {
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active {
-	background: #ADBECF !important/* Lighter blue on hover */ ;
+	background: #e6e6fa !important/* Lighter blue on hover */ ;
 	border-color: #0000cd  /* Lighter blue border on hover */ !important;
 }
 .btn-primary.btn-outline {
@@ -2428,7 +2428,7 @@ ul {
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 10px;
-	background-color: #ADBECF; /* Blue background */
+	background-color: #e6e6fa; /* Blue background */
     	color: #0000cd ; /* Set text color to match your blue theme */
     	border: 2px solid #0000cd ; /* Optional: Add a border if you want to highlight the element */
     	border-radius: 4px; /* Optional: Adds rounded corners for a polished look */
@@ -2438,7 +2438,7 @@ ul {
 	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 	border-radius: 5px;
     	color: #ffffff; /* White text on hover */
-	background-color: #ADBECF; /* Blue background on hover */
+	background-color: #e6e6fa; /* Blue background on hover */
 
 }
 
