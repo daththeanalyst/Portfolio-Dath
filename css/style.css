@@ -23,7 +23,7 @@
 .project-title h3 {
   font-size: 20px;
   font-weight: bold;
-  color: #0505cb ; /* Blue color */
+  color: #0000cd ; /* Blue color */
   margin-bottom: 10px;
   text-align: left;
 }
@@ -34,9 +34,9 @@
    padding: 10px 20px;
    font-size: 14px;
    border-radius: 5px;
-   background-color: #0505cb ; /* Blue */
+   background-color: #0000cd ; /* Blue */
    color: #FFFFFF; /* White text */
-   border: 1px solid #0505cb ;
+   border: 1px solid #0000cd ;
    transition: all 0.3s ease;
    display: inline-block;
    text-align: center;
@@ -45,14 +45,14 @@
 
 .btn-custom:hover {
    background-color: #ADBECF; /* Lighter blue on hover */
-   color: #0505cb ; /* Blue text */
+   color: #0000cd ; /* Blue text */
 }
 
 
 body {
   font-family: "Quicksand", Arial, sans-serif;
   line-height: 1.8;
-  color: #0505cb ; /* Blue text color */
+  color: #0000cd ; /* Blue text color */
   background-color: #FFFFFF; /* Pastel Pink background */
 }
 }
@@ -194,8 +194,8 @@ body {
 /* For the individual certification list items */
 #certifications li {
     background-color: #ADBECF; /* Blue background for each certification */
-    color: #0505cb ; /* Set text color to blue to match the theme */
-    border: 2px solid #0505cb ; /* Optional: Adds border to match theme */
+    color: #0000cd ; /* Set text color to blue to match the theme */
+    border: 2px solid #0000cd ; /* Optional: Adds border to match theme */
     padding: 15px; /* Adjust padding to add space around items */
     border-radius: 12px; /* Rounded corners */
     margin-bottom: 10px; /* Space between items */
@@ -206,7 +206,7 @@ body {
 
 /* Link styling inside certifications section */
 .colorlib-certifications a.readmore {
-    color: #0505cb ; /* Blue link color */
+    color: #0000cd ; /* Blue link color */
     font-weight: 600; /* Make the link stand out */
 } 
 	
@@ -221,7 +221,7 @@ body {
 }
 
 a {
-    	color: #0505cb ; /* Blue link color */
+    	color: #0000cd ; /* Blue link color */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
@@ -250,21 +250,21 @@ h6 {
 	font-family: "Playfair Display", Georgia, serif;
 	font-weight: 400;
 	margin: 0 0 30px 0;
-    	color: #0505cb ; /* Updated to Blue */
+    	color: #0000cd ; /* Updated to Blue */
 }
 
 h2 {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 200;
 	margin: 0 0 20px 0;
-    	color: #0505cb ; /* Updated to Blue */
+    	color: #0000cd ; /* Updated to Blue */
 
 }
 h3 {
 	font-family: "Playfair Display", Georgia, serif;
 	font-weight: 500;
 	margin: 0 0 30px 0;
-	color: #0505cb ; /* Updated to Blue */
+	color: #0000cd ; /* Updated to Blue */
 
 }
 h4 {
@@ -272,7 +272,7 @@ h4 {
 	font-weight: 300;
 	font-size: 15px;
 	margin: 0 0 30px 0;
-	color: #0505cb ; /* Updated to Blue */
+	color: #0000cd ; /* Updated to Blue */
 
 }
 
@@ -324,11 +324,11 @@ figure figcaption {
 	position: fixed;
 	z-index: 1001;
     	background-color: #FFFFFF; /* Updated to Pastel Pink for Sidebar Background */
-	color: #0505cb ; /* Blue text color */
+	color: #0000cd ; /* Blue text color */
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
-	border: 3px solid #0505cb ; /* Blue border that matches the theme */
+	border: 3px solid #0000cd ; /* Blue border that matches the theme */
     	border-radius: 10px; /* Optional: to make the edges rounded */
 	transform: scale(0.99); /* Scale down to 90% */
     	transform-origin: top left; /* Ensure scaling starts from the top left */
@@ -403,7 +403,7 @@ figure figcaption {
 #colorlib-aside #colorlib-logo a {
 	display: block;
 	text-align: center;
-	color: #0505cb ;
+	color: #0000cd ;
 	padding-right: 0.3em;
 	margin-top: -70px; /* Moves the image 20px higher */
 
@@ -437,7 +437,7 @@ figure figcaption {
 	letter-spacing: 0.5px;
 }
 #colorlib-aside #colorlib-main-menu ul li a {
-    	color: #0505cb ; /* Blue link color */
+    	color: #0000cd ; /* Blue link color */
 	text-decoration: none;
 	position: relative;
 	padding: 10px 0;
@@ -468,7 +468,7 @@ figure figcaption {
 }
 #colorlib-aside #colorlib-main-menu ul li a:hover {
 	text-decoration: none;
-    	color: #0505cb ; /* White text on hover */
+    	color: #0000cd ; /* White text on hover */
     	background-color: #ffffff; /* Blue background on hover */
 
 }
@@ -483,7 +483,7 @@ figure figcaption {
 #colorlib-aside #colorlib-main-menu ul li.active a {
 	font-size: 15px;
 	font-weight: 600;
-	color: #0505cb ; /* Blue for active menu items */
+	color: #0000cd ; /* Blue for active menu items */
 	font-weight: bold; /* Make it bold */
 
 
@@ -528,7 +528,7 @@ figure figcaption {
 	padding: 4px;
 }
 #colorlib-aside .colorlib-footer h3 a {
-	color: #0505cb ;
+	color: #0000cd ;
 	font-size: 18px;
 }
 #rcorners2 {
@@ -844,7 +844,7 @@ body.offcanvas .colorlib-nav-toggle {
 
 
 #colorlib-footer2 {
-    	background-color: #0505cb ; /* Blue footer background */
+    	background-color: #0000cd ; /* Blue footer background */
 	color: #FFFFFF; /* Pastel Pink text */
 	width: 100%;
 	padding-bottom: 3em;
@@ -931,7 +931,7 @@ body.offcanvas .colorlib-nav-toggle {
 .fancy-collapse-panel .panel-default > .panel-heading {
 	padding: 0;
 	background-color: #FFFFFF; /* Blue background for accordion header */
-    	color: #0505cb ; /* Pastel Pink text */
+    	color: #0000cd ; /* Pastel Pink text */
     	border-bottom: 1px solid #FFFFFF; /* Border to match the pastel theme */
     	padding: 20px 25px;
 }
@@ -939,17 +939,17 @@ body.offcanvas .colorlib-nav-toggle {
 <!-----projectcss------------ > 
 #projects {
 	padding: 50px 15px;
-	border-bottom: 1px solid #0505cb ;
+	border-bottom: 1px solid #0000cd ;
 	text-align: center;
     	background-color: #ADBECF !important; /* Blue background for Projects section */
-    	color: #0505cb ; /* Blue text for better contrast */
+    	color: #0000cd ; /* Blue text for better contrast */
 	margin-bottom: 45px; /* Adds 30px of space below the Projects section */
 
 }
 
 #projects h2 {
 	color: #374054;
-	border: 8px solid #0505cb ; /* Add a blue border around each project */
+	border: 8px solid #0000cd ; /* Add a blue border around each project */
 	margin-bottom: 50px;
 }
 
@@ -964,12 +964,12 @@ body.offcanvas .colorlib-nav-toggle {
 	overflow: hidden;
 	background: #ADBECF !important;
 	border-radius: 14px;
-	border: 8px solid #0505cb ; /* Add a blue border around each project */
+	border: 8px solid #0000cd ; /* Add a blue border around each project */
 
 }
 .project:hover {
     background-color: #ADBECF; /* Lighter blue background on hover */
-    color: #0505cb ; /* Blue text on hover */
+    color: #0000cd ; /* Blue text on hover */
     transform: scale(1.05); /* Slight scaling effect */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow effect */
 }
@@ -989,7 +989,7 @@ body.offcanvas .colorlib-nav-toggle {
 	transform: translateY(-50%);
 	margin-left: 300px;
 	padding: 15px;
-	color: #0505cb ;
+	color: #0000cd ;
 	flex: 2; /* Allow the text to take more space */
    	text-align: left; /* Align the text to the left */
 
@@ -999,12 +999,12 @@ body.offcanvas .colorlib-nav-toggle {
 .project-info h3 {
 	font-size: 1.5em;
 	font-weight: 300;
-	color: #0505cb ;
+	color: #0000cd ;
 	margin: 0 0 15px 0;
 }
 
 .project-info p {
-	color: #0505cb ;
+	color: #0000cd ;
 	margin: 0 0 15px 0;
 	font-size: 0.9em;
 }
@@ -1244,7 +1244,7 @@ body.offcanvas .colorlib-nav-toggle {
 .timeline-centered .timeline-entry .timeline-entry-inner .timeline-label {
 	position: relative;
     	background: #ADBECF; /* Updated to Muted Teal */
-    	color: #0505cb ; /* Blue text to match the theme */
+    	color: #0000cd ; /* Blue text to match the theme */
 	padding: 1.5em;
 	margin-left: 60px;
 	-webkit-background-clip: padding-box;
@@ -1480,7 +1480,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .progress-bar {
-    	background: #0505cb ; /* Blue progress bar */
+    	background: #0000cd ; /* Blue progress bar */
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	font-size: 12px;
@@ -1868,7 +1868,7 @@ body.offcanvas .colorlib-nav-toggle {
 	background-attachment: fixed;
 	background-position: center;
 	align-items: stretch;
-	background-color: #0505cb ; /* Blue background for counters section */
+	background-color: #0000cd ; /* Blue background for counters section */
 
 }
 .colorlib-counters .overlay {
@@ -2010,7 +2010,7 @@ body.offcanvas .colorlib-nav-toggle {
 }
 
 .btn-primary {
-    	background: #0505cb ; /* Blue button background */
+    	background: #0000cd ; /* Blue button background */
 	color: #ffffff; /* White text */
 	border: 2px solid #B85042;
 }
@@ -2018,17 +2018,17 @@ body.offcanvas .colorlib-nav-toggle {
 .btn-primary:focus,
 .btn-primary:active {
 	background: #ADBECF !important/* Lighter blue on hover */ ;
-	border-color: #0505cb  /* Lighter blue border on hover */ !important;
+	border-color: #0000cd  /* Lighter blue border on hover */ !important;
 }
 .btn-primary.btn-outline {
 	background: transparent;
-    	color: #0505cb ; /* Blue text */
-    	border: 2px solid #0505cb ; /* Blue border */
+    	color: #0000cd ; /* Blue text */
+    	border: 2px solid #0000cd ; /* Blue border */
 }
 .btn-primary.btn-outline:hover,
 .btn-primary.btn-outline:focus,
 .btn-primary.btn-outline:active {
-	background: #0505cb ; /* Blue background on hover */
+	background: #0000cd ; /* Blue background on hover */
     	color: #ffffff; /* White text on hover */
 }
 
@@ -2086,8 +2086,8 @@ body.offcanvas .colorlib-nav-toggle {
 .btn-warning:hover,
 .btn-warning:focus,
 .btn-warning:active {
-	background: #eea236 !important;
-	border-color: #eea236 !important;
+	background: #e6e6fa !important;
+	border-color: #e6e6fa !important;
 }
 .btn-warning.btn-outline {
 	background: transparent;
@@ -2146,9 +2146,9 @@ body.offcanvas .colorlib-nav-toggle {
 	-webkit-box-shadow: none;
 	box-shadow: none;
 	background: transparent;
-    	border: 1px solid #0505cb ; /* Blue border */
+    	border: 1px solid #0000cd ; /* Blue border */
     	background: #FFFFFF; /* Pastel Pink input background */
-	color: #0505cb ; /* Blue text */
+	color: #0000cd ; /* Blue text */
 	height: 54px;
 	font-size: 16px;
 	font-weight: 400;
@@ -2165,7 +2165,7 @@ body.offcanvas .colorlib-nav-toggle {
 	outline: none;
 	-webkit-box-shadow: none;
 	box-shadow: none;
-    	border-color: #0505cb ; /* Blue border */
+    	border-color: #0000cd ; /* Blue border */
     	background: #ffffff; /* White background on focus */
 }
 
@@ -2353,7 +2353,7 @@ ul {
 	padding-right: 20px;
 	/* margin: 30px auto 20px; */
     	background-color: #FFFFFF !important; /* Blue background for accordion header */
-    	color: #0505cb  !important; /* Black text for better readability */
+    	color: #0000cd  !important; /* Black text for better readability */
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
 	border-radius: 4px;
@@ -2371,8 +2371,8 @@ ul {
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
 	background-color: #FFFFFF !important; /* Teal background for the headers of the accordion */	
-	color: #0505cb  !important; /* Blue text color */
-	border: 1px solid #0505cb ; /* Apply blue border */
+	color: #0000cd  !important; /* Blue text color */
+	border: 1px solid #0000cd ; /* Apply blue border */
 	margin-bottom: 10px; /* Add spacing between accordion headers */
 
 
@@ -2382,7 +2382,7 @@ ul {
 	color: #ffffff; /* White text on hover for better contrast */
 }
 .accordion li:last-child .link {
-	border-bottom: 1px solid #0505cb ;
+	border-bottom: 1px solid #0000cd ;
 }
 
 .accordion li i {
@@ -2390,7 +2390,7 @@ ul {
 	top: 16px;
 	left: 12px;
 	font-size: 18px;
-    	color: #0505cb ; /* Blue color for the dropdown icon */
+    	color: #0000cd ; /* Blue color for the dropdown icon */
 	-webkit-transition: all 0.4s ease;
 	-o-transition: all 0.4s ease;
 	transition: all 0.4s ease;
@@ -2416,7 +2416,7 @@ ul {
 .submenu {
 	display: none;
    	background-color: #FFFFFF !important; /* Blue background for expanded content */
-	color: #0505cb  !important; /* Blue text color */
+	color: #0000cd  !important; /* Blue text color */
 	font-size: 14px;
 	padding-left: 0px;
 	padding-top: 10px;
@@ -2429,8 +2429,8 @@ ul {
 	margin-bottom: 10px;
 	padding: 10px;
 	background-color: #ADBECF; /* Blue background */
-    	color: #0505cb ; /* Set text color to match your blue theme */
-    	border: 2px solid #0505cb ; /* Optional: Add a border if you want to highlight the element */
+    	color: #0000cd ; /* Set text color to match your blue theme */
+    	border: 2px solid #0000cd ; /* Optional: Add a border if you want to highlight the element */
     	border-radius: 4px; /* Optional: Adds rounded corners for a polished look */
 }
 
@@ -2445,7 +2445,7 @@ ul {
 .submenu a {
 	display: block;
 	text-decoration: none;
-    	color: #0505cb ; /* Blue text */
+    	color: #0000cd ; /* Blue text */
 	padding: 12px;
 	padding-left: 10px;
 	-webkit-transition: all 0.25s ease;
@@ -2537,10 +2537,10 @@ span {
 
 :root {
 	--footer-bg: #FFFFFF; /* Update to Pastel Pink to match the new theme */
-	--color: #0505cb ; /* Update to Blue for primary text color */
+	--color: #0000cd ; /* Update to Blue for primary text color */
 	--color-smooth: #A7BEAE; /* Muted Teal for softer or secondary elements */
 	--input-border: #B85042; /* Terracotta Red for input borders or accents */
-	--btn-bg-color: #0505cb ; /* Blue background for buttons */
+	--btn-bg-color: #0000cd ; /* Blue background for buttons */
 	--btn-hover-bg: #A7BEAE; /* Muted Teal for hover effect on buttons */
 	--btn-color: #FFFFFF; /* White text color for buttons to create contrast */
 }
