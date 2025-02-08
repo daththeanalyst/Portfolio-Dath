@@ -105,7 +105,7 @@ export const projects = {
       image: "images/stock-app.png",
       summary:
         "<strong>Interactive Stock Prediction App</strong>:<br> Developed a web-based application using Flask and Streamlit that allows users to input stock tickers and receive LSTM-based stock price forecasts. The app integrates with Yahoo Finance API to fetch real-time stock data and displays interactive visualizations of predicted vs actual prices.",
-      preview: "https://github.com/daththeanalyst/stock-forecasting-app", // GitHub link
+      preview: "https://github.com/daththeanalyst/stock-forecast-analysis", // GitHub link
       techStack: ["Python", "Flask", "Streamlit", "TensorFlow", "Keras", "yfinance", "Plotly"],
     },
   ],
