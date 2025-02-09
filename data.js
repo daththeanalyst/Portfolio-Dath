@@ -101,12 +101,12 @@ export const projects = {
       techStack: ["Python", "BeautifulSoup", "Requests", "Pandas"],
     },
     {
-      projectName: "Stock Forecasting Web App",
+      projectName: "Stock Forecast Analysis",
       image: "images/stock-app.png",
       summary:
-        "<strong>Interactive Stock Prediction App</strong>:<br> Developed a web-based application using Flask and Streamlit that allows users to input stock tickers and receive LSTM-based stock price forecasts. The app integrates with Yahoo Finance API to fetch real-time stock data and displays interactive visualizations of predicted vs actual prices.",
+        "<strong>Stock Forecast Analysis</strong>:<br>Conducted an in-depth analysis of Apple's stock price using historical data from Yahoo Finance. Applied feature engineering techniques and trained an LSTM-based deep learning model to predict future stock prices. Evaluated model performance using RMSE (3.4) and visualized predicted vs actual prices to assess accuracy.",
       preview: "https://github.com/daththeanalyst/stock-forecast-analysis", // GitHub link
-      techStack: ["Python", "Flask", "Streamlit", "TensorFlow", "Keras", "yfinance", "Plotly"],
+      techStack: ["Python", "TensorFlow", "Keras", "LSTM", "yfinance", "Pandas", "Matplotlib"],
     },
   ],
 };
