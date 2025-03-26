@@ -1,5 +1,5 @@
 export const bio = [
-  "Hello! I'm Dimitris Athinaios, a data analyst and data science enthusiast, currently completing my BSc in Business Management with Data Analytics and Digital Business at Henley Business School, University of Reading. I'm on track to graduate with a high 2:1 or First. This September, I’ll be starting my MSc in Business Analytics at UCL School of Management. I'm passionate about leveraging data to solve real-world problems and driven to build a career in data science."
+  "Hello!  I'm Dimitris Athinaios, a data analyst and data science enthusiast, currently completing my BSc in Business Management with Data Analytics and Digital Business at Henley Business School, University of Reading. I'm on track to graduate with a high 2:1 or First. \n This September, I’ll be starting my MSc in Business Analytics at UCL School of Management. I'm passionate about leveraging data to solve real-world problems and driven to build a career in data science."
 ];
 
 export const skills = [
@@ -148,6 +148,19 @@ export const experience = [
 
 
 export const education = [
+  {
+  title: "UCL School of Management",
+  duration: "September 2025 - September 2026",
+  subtitle: "MSc in Business Analytics",
+  details: [
+    "Core Modules: Business Strategy and Analytics, Marketing Analytics, Operations Analytics, Predictive Analytics, Statistical Foundations of Business Analytics, Programming for Business Analytics, Business Analytics Consulting Project/Dissertation.",
+    "Optional Modules: Data Engineering, Machine Learning for Domain Specialists.",
+    "Focused on developing advanced skills in data science, analytics, and strategic decision-making."
+  ],
+  tags: ["Business Analytics", "Predictive Modelling", "Machine Learning", "Data Engineering"],
+  icon: "graduation-cap",
+  },
+
   {
     title: "Henley Business School, University of Reading",
     duration: "September 2022 - June 2025",
