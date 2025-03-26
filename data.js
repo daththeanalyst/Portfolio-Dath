@@ -1,5 +1,5 @@
 export const bio = [
-  "Hello!  I'm Dimitris Athinaios, a data analyst and data science enthusiast, currently completing my BSc in Business Management with Data Analytics and Digital Business at Henley Business School, University of Reading. I'm on track to graduate with a high 2:1 or First. \n \nThis September, I’ll be starting my MSc in Business Analytics at UCL School of Management. I'm passionate about leveraging data to solve real-world problems and driven to build a career in data science."
+  "Hello!  I'm Dimitris Athinaios, a data analyst and data science enthusiast, currently completing my BSc in Business Management with Data Analytics and Digital Business at Henley Business School, University of Reading. I'm on track to graduate with a high 2:1 or First. \n This September, I’ll be starting my MSc in Business Analytics at UCL School of Management. I'm passionate about leveraging data to solve real-world problems and driven to build a career in data science."
 ];
 
 export const skills = [
@@ -111,15 +111,15 @@ export const projects = {
 
 export const experience = [
   {
-    title: "ICB, Athens, Greece",
-    duration: "June 2024 - July 2024",
-    subtitle: "Data Analyst",
-    details: [
-      "Minimized redundant stock purchases using SoftOne SQL data, cutting overstock by 3%.",
-      "Created Power BI dashboards, reducing excess inventory by 5%.",
-    ],
-    tags: ["SQL", "Power BI", "Inventory Optimization", "Data Visualization"],
-    icon: "chart-line",
+  title: "Globassure Insurance Agents (acquired by HOWDEN), Athens, Greece",
+  duration: "June 2024 - August 2024",
+  subtitle: "Business Analyst",
+  details: [
+    "Cleaned and analysed over 12,000 records, uncovering key data relationships through exploratory data analysis (EDA).",
+    "Extracted and organised lead data in Excel, helping secure five start-up clients for employee insurance coverage."
+  ],
+  tags: ["EDA", "Excel", "Client Acquisition", "Data Cleaning"],
+  icon: "chart-line",
   },
   {
     title: "Syndesis, Athens, Greece",
@@ -131,17 +131,6 @@ export const experience = [
     ],
     tags: ["Market Research", "Excel", "Power BI", "Networking"],
     icon: "user-tie",
-  },
-  {
-    title: "Globassure Insurance Agents, Athens, Greece",
-    duration: "June 2022 - August 2022",
-    subtitle: "Data Ops Analyst",
-    details: [
-      "Conducted market research with Excel, identifying potential clients and increasing clientele by 2%.",
-      "Developed Power BI dashboards from cleaned Excel data, summarizing 1,000+ data points and saving 1 day of reporting effort weekly.",
-    ],
-    tags: ["Market Research", "Excel", "Power BI", "Efficiency Improvement"],
-    icon: "briefcase",
   },
 ];
 
@@ -172,17 +161,6 @@ export const education = [
     ],
     tags: ["Machine Learning", "Data Analytics", "Business Analytics"],
     icon: "graduation-cap",
-  },
-  {
-    title: "St Catherine’s British School, Athens, Greece",
-    duration: "September 2017 - July 2021",
-    subtitle: "IB Diploma & IGCSEs",
-    details: [
-      "IB Diploma: HL - Mathematics AA, Physics, Business Management.",
-      "IGCSEs: 10 GCSEs including Mathematics(A) and English Language(A).",
-    ],
-    tags: ["Mathematics", "Physics", "Business Management", "Java","Python",],
-    icon: "school",
   },
 ];
 
