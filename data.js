@@ -1,8 +1,6 @@
 export const bio = [
   "Hello! I'm Dimitris Athinaios, a data analyst and data science enthusiast, currently completing my BSc in Business Management with Data Analytics and Digital Business at Henley Business School, University of Reading. I'm on track to graduate with a high 2:1 or First."
-
   "This September, I’ll be starting my MSc in Business Analytics at UCL School of Management. I'm passionate about leveraging data to solve real-world problems and driven to build a career in data science."
-
   "Thanks for visiting!"
 ];
 
@@ -114,17 +112,6 @@ export const projects = {
 };
 
 export const experience = [
-  {
-    title: "Globassure Insurance Agents (Howden), Athens, Greece",
-    duration: "July 2024 - August 2024",
-    subtitle: "Data Analyst",
-    details: [
-      "Cleaned 12,000+ records, performed exploratory data analysis (EDA), and identified key data relationships that drove actionable insights.",
-      "Scraped and organized data on potential clients in Excel, securing 5 start-up businesses for employee insurance coverage.",
-    ],
-    tags: ["Python", "EDA", "Data Cleaning", "Excel", "Power BI"],
-    icon: "briefcase",
-  },
   {
     title: "ICB, Athens, Greece",
     duration: "June 2024 - July 2024",
