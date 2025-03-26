@@ -162,6 +162,17 @@ export const experience = [
 
 export const education = [
   {
+    title: "UCL School of Management, University College London (UCL) Incoming",
+    duration: "September 2025 - June 2026",
+    subtitle: "MSc in Business Analytics",
+    details: [
+      "Key Courses: Business Strategy and Analytics, Programming, Statistical Foundations, Marketing Analytics" 
+      "Operations Analytics, Predictive Analytics, Machine Learning, Data Engineering"
+    ],
+    tags: ["Machine Learning", "Data Analytics", "Business Analytics"],
+    icon: "graduation-cap",
+  },
+  {
     title: "Henley Business School, University of Reading",
     duration: "September 2022 - June 2025",
     subtitle: "BSc in Business Management (Data Analytics and Digital Business)",
