@@ -192,7 +192,7 @@ export const footer = [
   {
     label: "copyright-text",
     data: [
-      "Made with ♥ by Dimitris Athinaios.",
+      "Made by Dimitris Athinaios.",
       "&copy; No Copyrights. Feel free to use this template.",
     ],
   },
