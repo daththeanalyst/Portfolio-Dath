@@ -156,7 +156,7 @@ export const education = [
     subtitle: "BSc in Business Management (Data Analytics and Digital Business)",
     details: [
       "Key Courses: Machine Learning, Data Analytics, Business Analytics.",
-      "Second Year Avg: 69% (2:1).",
+      "Grade: 1st Class Honours.",
       "President & Co-Founder of Data Analytics Society"
     ],
     tags: ["Machine Learning", "Data Analytics", "Business Analytics"],
