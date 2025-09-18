@@ -1,5 +1,5 @@
 export const bio = [
-  "Hello!  I'm Dimitris Athinaios, a data analyst and data science enthusiast, currently completing my BSc in Business Management with Data Analytics and Digital Business at Henley Business School, University of Reading. I'm on track to graduate with a high 2:1 or First. \n This September, I’ll be starting my MSc in Business Analytics at UCL School of Management. I'm passionate about leveraging data to solve real-world problems and driven to build a career in data science."
+  "Hello!  I'm Dimitris Athinaios, a data analyst and data science enthusiast, I completed my BSc in Business Management(Data Analytics & Digital Business) at Henley Business School at UoR with a First Class Honors Degree.  \n This September, I’m starting my MSc in Business Analytics at UCL School of Management. I'm passionate about leveraging data to solve real-world problems and driven to build a career in data science."
 ];
 
 export const skills = [
