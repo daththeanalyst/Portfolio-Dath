@@ -3,35 +3,41 @@ export const bio = [
 ];
 
 export const skills = [
-  {
+ {
     title: "Languages",
-    skillName: "Python, SQL",
+    skillName: "Python, SQL, R, HTML/CSS, Java",
     color: "1",
-    percentage: "70",
+    percentage: "90",
   },
   {
-    title: "Data Visualization Tools",
-    skillName: "Power BI, Tableau",
+    title: "Machine Learning & Stats",
+    skillName: "Scikit-learn, XGBoost, Optuna, Causal Inference (2SLS), Predictive Modeling",
+    color: "6",
+    percentage: "85",
+  },
+  {
+    title: "Data Engineering & Cloud",
+    skillName: "PySpark, Databricks, AWS, Docker, Git, ETL Pipelines",
+    color: "3",
+    percentage: "75",
+  },
+  {
+    title: "Data Visualization & BI",
+    skillName: "Power BI, Tableau, Seaborn, Matplotlib",
     color: "4",
+    percentage: "90",
+  },
+  {
+    title: "Business Strategy",
+    skillName: "Marketing Analytics, CLV Modeling, Financial ROI, Operations Analytics",
+    color: "2",
     percentage: "80",
   },
   {
-    title: "Data Analysis",
-    skillName: "Data Cleaning, Statistical Analysis",
-    color: "6",
-    percentage: "70",
-  },
-  {
-    title: "Software/Tools",
-    skillName: "Microsoft Office, Excel, R, Java",
-    color: "3",
-    percentage: "70",
-  },
-  {
     title: "Development Tools",
-    skillName: "GitHub, R Commander",
+    skillName: "GitHub, Quarto, Jupyter, Linux, VS Code",
     color: "5",
-    percentage: "50",
+    percentage: "70",
   },
 ];
 export const certifications = [
