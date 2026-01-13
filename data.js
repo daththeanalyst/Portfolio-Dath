@@ -24,14 +24,13 @@ export const projects = [
     projectName: "Spatio-Temporal ML Pipeline: London Housing Index",
     image: "images/london-housing.png",
     summary: "<strong>ML Engineering & Spatial Intelligence</strong>:<br> Integrated 1M+ crime and housing records to create a custom 'Opportunity Index.' Optimized an <strong>XGBoost regressor via Optuna</strong> to achieve an R² of 0.92, outperforming baseline models.",
-    preview: "https://github.com/daththeanalyst/London-Housing-Crime-Analysis",
+    preview: "https://github.com/daththeanalyst/London-SafeValue-Analytics",
     techStack: ["Python", "XGBoost", "Optuna", "GeoPandas", "Scikit-learn"],
   },
   {
     projectName: "Scalable Retail ETL Pipeline (Databricks)",
     image: "images/databricks-etl.png",
     summary: "<strong>Big Data Engineering</strong>:<br> Constructed a production-grade ETL pipeline for 500k+ transactions. Utilized <strong>PySpark</strong> for data orchestration and automated KPI tracking via Databricks business intelligence dashboards.",
-    preview: "https://github.com/daththeanalyst/Databricks-Retail-ETL",
     techStack: ["Databricks", "PySpark", "SQL", "Big Data", "ETL"],
   },
   {
