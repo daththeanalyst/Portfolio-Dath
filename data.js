@@ -12,19 +12,19 @@ export const skills = [
   {
     title: "Data Engineering",
     skillName: "SQL, PySpark, Databricks, AWS, ETL Pipelines",
-    color: "6",
+    color: "2",
     percentage: "85",
   },
   {
     title: "Business Intelligence",
     skillName: "Power BI, Tableau, Excel, Marketing Analytics (CLV/CAC)",
-    color: "4",
+    color: "3",
     percentage: "90",
   },
   {
     title: "Development & DevOps",
     skillName: "Git/GitHub, Docker, Linux, HTML/CSS",
-    color: "5",
+    color: "4",
     percentage: "75",
   },
 ];
