@@ -73,8 +73,8 @@
 }
 
 .project-card h3 {
-    font-size: 20px; /* Fixed the typo here too */
-    font-family: inherit; /* <--- THIS forces it to use "ImperialText" from body */
+    font-size: 20px; /* Make sure this is font-size, not just -size */
+    font-family: "Montserrat", sans-serif; /* <--- CHANGED TO MONTSERRAT */
     color: #0000cd;
     font-weight: 700;
     margin-top: 0;
@@ -83,7 +83,7 @@
 
 .project-card p {
     font-size: 14px;
-    font-family: inherit; /* <--- THIS forces it to use "ImperialText" from body */
+    font-family: "Montserrat", sans-serif; /* <--- CHANGED TO MONTSERRAT */
     line-height: 1.5;
     color: #333;
     margin-bottom: 15px;
