@@ -1,5 +1,7 @@
 export const bio = [
-  "Hello! I'm Dimitris Athinaios, a data analyst and data science enthusiast. I completed my BSc in Business Management (Data Analytics & Digital Business) at Henley Business School at UoR with First Class Honors. This September, I’m starting my MSc in Business Analytics at UCL School of Management. I'm passionate about leveraging data to solve real-world problems and driven to build a career in data science."
+  "I am a <strong>Data Scientist</strong> currently pursuing an MSc in Business Analytics at <strong>UCL School of Management</strong>, where I maintain a First-Class average of 80% (Distinction). Having graduated with First Class Honors from Henley Business School, I am now focused on bridging the gap between high-level business strategy and deep technical execution.",
+  "My current work is centered on cultivating the rigorous mathematical foundations and advanced programming expertise required for <strong>AI/ML Engineering</strong>. I am passionate about deconstructing complex algorithms to their first principles—focusing on the core linear algebra, calculus, and scalable coding practices that power modern artificial intelligence.",
+  "From engineering spatio-temporal ML pipelines to building scalable ETL infrastructure, my goal is to develop robust, data-driven solutions that solve real-world problems through technical excellence and continuous improvement (Kaizen)."
 ];
 
 export const skills = [
@@ -17,50 +19,42 @@ export const certifications = [
   { title: "Google Data Analytics", link: "https://www.credly.com/badges/7a1394e2-1698-4b9e-9d28-26b58d1e3c79/linked_in_profile" },
 ];
 
-// Unified Projects Array
 export const projects = [
   {
     projectName: "Spatio-Temporal ML Pipeline: London Housing Index",
     image: "images/london-housing.png",
-    summary: "<strong>ML Engineering & Spatial Intelligence</strong>:<br> Integrated 1M+ crime and housing records to create a custom 'Opportunity Index.' Optimized an <strong>XGBoost regressor via Optuna</strong> to achieve an R² of 0.92.",
+    summary: "<strong>ML Engineering & Spatial Intelligence</strong>:<br> Integrated 1M+ crime and housing records to create a custom 'Opportunity Index.' Optimized an <strong>XGBoost regressor via Optuna</strong> to achieve an R² of 0.92, outperforming baseline models.",
     preview: "https://github.com/daththeanalyst/London-Housing-Crime-Analysis",
     techStack: ["Python", "XGBoost", "Optuna", "GeoPandas", "Scikit-learn"],
   },
   {
     projectName: "Scalable Retail ETL Pipeline (Databricks)",
     image: "images/databricks-etl.png",
-    summary: "<strong>Big Data Engineering</strong>:<br> Constructed a production-grade ETL pipeline for 500k+ transactions. Utilized <strong>PySpark</strong> for data orchestration and automated KPI tracking via Databricks dashboards.",
+    summary: "<strong>Big Data Engineering</strong>:<br> Constructed a production-grade ETL pipeline for 500k+ transactions. Utilized <strong>PySpark</strong> for data orchestration and automated KPI tracking via Databricks business intelligence dashboards.",
     preview: "https://github.com/daththeanalyst/Databricks-Retail-ETL",
     techStack: ["Databricks", "PySpark", "SQL", "Big Data", "ETL"],
   },
   {
     projectName: "Marketing Strategy & Causal Inference",
     image: "images/marketing-analytics.png",
-    summary: "<strong>Strategic Analytics & CLV Modeling</strong>:<br> Formulated a market entry strategy for a retail startup using R. Applied <strong>Causal Inference (2SLS)</strong> to project an £11k+ profit uplift.",
+    summary: "<strong>Strategic Analytics & CLV Modeling</strong>:<br> Formulated a market entry strategy for a retail startup using R. Applied <strong>Causal Inference (2SLS)</strong> to project an £11k+ profit uplift and analyze price elasticity.",
     preview: "https://github.com/daththeanalyst/CLV-CAC-Analysis-for-Case-Study-UCL",
     techStack: ["R", "Quarto", "Causal Inference", "Financial Modeling"],
   },
   {
-    projectName: "Stock Forecast Analysis (LSTM)",
-    image: "images/stock-app.png",
-    summary: "<strong>Deep Learning Time-Series Modeling</strong>:<br> Developed an <strong>LSTM-based model</strong> to predict market trends. Achieved an RMSE of 3.4 using TensorFlow and Keras.",
-    preview: "https://github.com/daththeanalyst/stock-forecast-analysis",
-    techStack: ["Python", "TensorFlow", "Keras", "Deep Learning", "LSTM"],
-  },
-  {
-    projectName: "Maritime Operations Intelligence",
-    image: "images/cargo-ship.png",
-    summary: "<strong>AIS Data Analysis & Visualization</strong>:<br> Analyzed maritime vessel data to optimize fleet performance. Developed interactive <strong>Power BI</strong> dashboards for navigational pattern analysis.",
-    preview: "https://github.com/daththeanalyst/Cargo-Ship-Dataset-Deep-Analysis",
-    techStack: ["Python", "SQL", "Power BI", "Pandas", "NumPy"],
-  },
-  {
-    projectName: "Corporate Web Ecosystem",
+    projectName: "Corporate Web Deployment: Global Team Plans",
     image: "images/web-dev.png",
-    summary: "<strong>Digital Presence & Brand Deployment</strong>:<br> Deployed a responsive corporate front-end and a personal portfolio ecosystem managed via <strong>GitHub Pages</strong>.",
-    preview: "https://daththeanalyst.github.io/Portfolio-Dath/",
-    techStack: ["HTML5", "CSS3", "JavaScript", "GitHub Pages", "Git"],
+    summary: "<strong>Digital Presence & Branding</strong>:<br> Designed and deployed a responsive static front-end website for a corporate client. Established their digital brand presence and managed the full deployment lifecycle via <strong>GitHub</strong>.",
+    preview: "https://globalteamplans.com/",
+    techStack: ["HTML5", "CSS3", "JavaScript", "GitHub Pages", "Version Control"],
   },
+  {
+    projectName: "Web Portfolio & Professional Brand Ecosystem",
+    image: "images/portfolio-preview.png",
+    summary: "<strong>Personal Branding & Web Dev</strong>:<br> Developed a dual-site ecosystem featuring a comprehensive <strong>Web CV Portfolio</strong> and a custom-coded <strong>Linktree clone</strong>. Centralized technical projects and social touchpoints with a focus on mobile-first responsive design.",
+    preview: "https://daththeanalyst.github.io/Portfolio-Dath/",
+    techStack: ["HTML5", "CSS3", "Git", "GitHub Pages", "UI/UX"],
+  }
 ];
 
 export const experience = [
