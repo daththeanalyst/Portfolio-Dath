@@ -1,6 +1,6 @@
 export const bio = [
   "I am a <strong>Data Scientist</strong> currently pursuing an MSc in Business Analytics at <strong>UCL School of Management</strong>, where I maintain a First-Class average of 80% (Distinction). Having graduated with First Class Honors from Henley Business School, I am now focused on bridging the gap between high-level business strategy and deep technical execution.",
-  "My current work is centered on cultivating the rigorous mathematical foundations and advanced programming expertise required for <strong>AI/ML Engineering</strong>. I am passionate about deconstructing complex algorithms to their first principles—focusing on the core linear algebra, calculus, and scalable coding practices that power modern artificial intelligence.",
+  "My current work is centered on cultivating the rigorous mathematical foundations and advanced programming expertise required for <strong>AI/ML Engineering</strong>. I am passionate about deconstructing complex algorithms to their first principles focusing on the core linear algebra, calculus, and scalable coding practices that power modern artificial intelligence.",
   "From engineering spatio-temporal ML pipelines to building scalable ETL infrastructure, my goal is to develop robust, data-driven solutions that solve real-world problems through technical excellence and continuous improvement (Kaizen)."
 ];
 
