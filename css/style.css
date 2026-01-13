@@ -42,17 +42,25 @@
 }
 
 /* Left Side: Fixed Image Container */
+/* Fixed Image Frame for Horizontal Layout */
 .project-image-container {
-    flex: 0 0 220px; /* Keeps image width consistent */
+    flex: 0 0 220px;   /* Fixed width for the image area */
+    height: 160px;     /* Fixed height to prevent vertical overflow */
     margin-right: 25px;
+    background-color: #f8f9ff; /* Adds a light background for empty space */
+    border-radius: 8px;
+    border: 1px solid #e6e6fa;
+    display: flex;     /* Centers the contained image */
+    align-items: center;
+    justify-content: center;
 }
 
 .project-card img {
-    width: 100%;
-    height: 160px;
-    object-fit: cover;
-    border-radius: 8px;
-    border: 1px solid #e6e6fa;
+    max-width: 100%;
+    max-height: 100%;
+    /* Use 'contain' to show the WHOLE photo without cropping */
+    object-fit: contain; 
+    object-position: center;
 }
 
 /* Right Side: Content Container */
