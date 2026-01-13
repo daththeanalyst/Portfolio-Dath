@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     projectName: "Scalable Retail ETL Pipeline (Databricks)",
-    image: "images/databricks-etl.PNG",
+    image: "images/databricks-etl.png",
     summary: "<strong>Big Data Engineering</strong>:<br> Constructed a production-grade ETL pipeline for 500k+ transactions. Utilized <strong>PySpark</strong> for data orchestration and automated KPI tracking via Databricks business intelligence dashboards.",
     techStack: ["Databricks", "PySpark", "SQL", "Big Data", "ETL"],
   },
