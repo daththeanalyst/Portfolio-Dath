@@ -45,8 +45,8 @@
 /* Fixed Image Frame for Horizontal Layout */
 /* Fixed Image Frame for Horizontal Layout */
 .project-image-container {
-    flex: 0 0 300px;   /* CHANGED from 220px to 300px (Bigger width) */
-    height: 200px;     /* CHANGED from 160px to 200px (Bigger height) */
+    flex: 0 0 240px;   /* CHANGED from 220px to 300px (Bigger width) */
+    height: 160px;     /* CHANGED from 160px to 200px (Bigger height) */
     margin-right: 25px;
     background-color: #f8f9ff; 
     border-radius: 8px;
