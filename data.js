@@ -45,7 +45,7 @@ export const projects = [
     image: "images/global_team_plans.png",
     summary: "<strong>Digital Presence & Branding</strong>:<br> Designed and deployed a responsive static front-end website for a corporate client. Established their digital brand presence and managed the full deployment lifecycle via <strong>GitHub</strong>.",
     preview: "https://globalteamplans.com/",
-    techStack: ["HTML5", "CSS3", "JavaScript", "GitHub Pages", "Version Control"],
+    techStack: ["HTML5", "JavaScript", "GitHub Pages", "Version Control"],
   },
   {
     projectName: "Web Portfolio & Professional Brand Ecosystem",
