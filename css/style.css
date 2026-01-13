@@ -43,16 +43,18 @@
 
 /* Left Side: Fixed Image Container */
 /* Fixed Image Frame for Horizontal Layout */
+/* Fixed Image Frame for Horizontal Layout */
 .project-image-container {
-    flex: 0 0 220px;   /* Fixed width for the image area */
-    height: 160px;     /* Fixed height to prevent vertical overflow */
+    flex: 0 0 300px;   /* CHANGED from 220px to 300px (Bigger width) */
+    height: 200px;     /* CHANGED from 160px to 200px (Bigger height) */
     margin-right: 25px;
-    background-color: #f8f9ff; /* Adds a light background for empty space */
+    background-color: #f8f9ff; 
     border-radius: 8px;
     border: 1px solid #e6e6fa;
-    display: flex;     /* Centers the contained image */
+    display: flex;     
     align-items: center;
     justify-content: center;
+    overflow: hidden; /* Add this just in case */
 }
 
 .project-card img {
@@ -71,7 +73,8 @@
 }
 
 .project-card h3 {
-    font-size: 20px;
+    font-size: 20px; /* Fixed the typo here too */
+    font-family: inherit; /* <--- THIS forces it to use "ImperialText" from body */
     color: #0000cd;
     font-weight: 700;
     margin-top: 0;
@@ -80,10 +83,11 @@
 
 .project-card p {
     font-size: 14px;
+    font-family: inherit; /* <--- THIS forces it to use "ImperialText" from body */
     line-height: 1.5;
     color: #333;
     margin-bottom: 15px;
-    text-align: left; /* Ensures professional alignment */
+    text-align: left;
 }
 
 /* Tech Stack and Button Row */
