@@ -65,18 +65,29 @@ function populateProjects(items, id) {
   projectContainer.innerHTML = "";
 
   items.forEach((project) => {
-    const col = getElement("div", "col-md-6 col-lg-4 animate-box");
+    // Each project gets a full 12-column row
+    const col = getElement("div", "col-md-12 animate-box");
+    
+    // The main horizontal card
     const card = getElement("div", "project-card");
 
+    // Left Side: Image Container
+    const imgCont = getElement("div", "project-image-container");
     const img = getElement("img", "");
     img.src = project.image;
     img.alt = project.projectName;
+    imgCont.append(img);
+
+    // Right Side: Content Container
+    const content = getElement("div", "project-content");
 
     const title = getElement("h3", "");
     title.innerHTML = project.projectName;
 
     const summary = getElement("p", "");
     summary.innerHTML = project.summary;
+
+    const footerRow = getElement("div", "d-flex justify-content-between align-items-center");
 
     const techStackDiv = getElement("div", "tech-stack");
     project.techStack.forEach((tech) => {
@@ -89,8 +100,13 @@ function populateProjects(items, id) {
     btn.href = project.preview;
     btn.target = "_blank";
     btn.innerHTML = "View Project";
+    btn.style.width = "auto"; // Prevents button from being full width
 
-    card.append(img, title, summary, techStackDiv, btn);
+    // Assemble Content
+    content.append(title, summary, techStackDiv, btn);
+    
+    // Assemble Card
+    card.append(imgCont, content);
     col.append(card);
     projectContainer.append(col);
   });
