@@ -51,54 +51,59 @@ export const certifications = [
   }, 
 ];
 export const projects = {
-  webProjects: [
+  /* data.js */
+
+export const data = {
+  // Your other sections (experience, education) stay here
+  
+  projects: [
     {
-      projectName: "Cargo Ship Project",
+      projectName: "Spatio-Temporal ML Pipeline: London Housing Index",
+      image: "images/london-housing.png",
+      summary:
+        "<strong>ML Engineering & Spatial Intelligence</strong>:<br> Integrated 1M+ crime and housing records to create a custom 'Opportunity Index.' Optimized an <strong>XGBoost regressor via Optuna</strong> to achieve an R² of 0.92, modeling non-linear urban safety interactions for property valuation.",
+      preview: "https://github.com/your-username/london-housing-crime", 
+      techStack: ["Python", "XGBoost", "Optuna", "GeoPandas", "Scikit-learn"],
+    },
+    {
+      projectName: "Scalable Retail ETL Pipeline (Databricks)",
+      image: "images/databricks-etl.png",
+      summary:
+        "<strong>Big Data Engineering</strong>:<br> Constructed a production-grade ETL pipeline for 500k+ transactions. Utilized <strong>PySpark</strong> for data orchestration, segmentation, and automated KPI tracking via Databricks business intelligence dashboards.",
+      preview: "https://github.com/your-username/databricks-project", 
+      techStack: ["Databricks", "PySpark", "SQL", "Big Data", "ETL"],
+    },
+    {
+      projectName: "Marketing Strategy & Causal Inference",
+      image: "images/marketing-analytics.png",
+      summary:
+        "<strong>Strategic Analytics & CLV Modeling</strong>:<br> Formulated a market entry strategy for a retail startup using R. Applied <strong>Causal Inference (2SLS)</strong> and segmentation to project an £11k+ profit uplift and estimate price elasticity via A/B testing frameworks.",
+      preview: "https://github.com/daththeanalyst/CLV-CAC-Analysis-for-Case-Study-UCL",
+      techStack: ["R", "Quarto", "Causal Inference", "Financial Modeling"],
+    },
+    {
+      projectName: "Stock Forecast Analysis (LSTM)",
+      image: "images/stock-app.png",
+      summary:
+        "<strong>Deep Learning Time-Series Modeling</strong>:<br> Developed an <strong>LSTM-based deep learning model</strong> to predict market trends. Implemented advanced feature engineering on historical data to achieve an RMSE of 3.4 using TensorFlow and Keras.",
+      preview: "https://github.com/daththeanalyst/stock-forecast-analysis",
+      techStack: ["Python", "TensorFlow", "Keras", "Deep Learning", "LSTM"],
+    },
+    {
+      projectName: "Maritime Operations Intelligence",
       image: "images/cargo-ship.png",
       summary:
-        "<strong>AIS Data Analysis for Maritime Operations</strong>:<br> Analyzed vessel operations using AIS data to uncover patterns in navigational efficiency and fleet performance. Cleaned data in Python and created interactive Power BI dashboards to provide actionable insights for optimizing maritime operations.",      preview: "https://github.com/daththeanalyst/Cargo-Ship-Dataset-Deep-Analysis", // GitHub link
+        "<strong>AIS Data Analysis & Visualization</strong>:<br> Analyzed maritime vessel data to optimize fleet performance. Developed interactive <strong>Power BI</strong> dashboards and utilized Python for complex exploratory data analysis (EDA) of navigational and fleet efficiency patterns.",
+      preview: "https://github.com/daththeanalyst/Cargo-Ship-Dataset-Deep-Analysis",
       techStack: ["Python", "SQL", "Power BI", "Pandas", "NumPy"],
     },
     {
-      projectName: "Data Cleaning Project SQL",
-      image: "images/data-cleaning.png",
+      projectName: "Corporate Web Ecosystem",
+      image: "images/web-dev.png",
       summary:
-        "<strong>Layoffs Dataset Cleaning Project</strong>:<br> Performed comprehensive cleaning on a layoffs dataset using SQL. Focused on removing duplicates, handling null values and standardizing data. Prepared the dataset for further EDA and visualizations.",
-      preview: "https://github.com/daththeanalyst/Data-Cleaning-Project-SQL", // GitHub link
-      techStack: ["SQL", "Data Cleaning"],
-    },
-    {
-      projectName: "Fitness App Analysis Project",
-      image: "images/fitness-app-analysis.png",
-      summary:
-        "<strong>Fitness App Analysis Project</strong>:<br> Analyzed Google Play Store data to derive insights into the fitness application industry. Focused on user engagement, performance, and features of fitness apps compared to other app categories using Python for data cleaning and Power BI for interactive visualizations.",
-      preview: "https://github.com/daththeanalyst/Google-Play-Store-Analysis", // GitHub link
-      techStack: ["Python", "Power BI", "Pandas", "NumPy"],
-    },
-  ],
-  softwareProjects: [
-        {
-      projectName: "Churn Prediction Model",
-      image: "images/churn-prediction.png",
-      summary:
-        "<strong>Churn Prediction Model</strong>:<br>Built a machine learning model to predict customer churn, achieving 86.75% accuracy with Gradient Boosting. Key predictors included Age, Balance, and NumOfProducts.",
-      preview: "https://github.com/daththeanalyst/Churn-Prediction-Model", // GitHub link
-      techStack: ["Python", "Matplotlib", "Seaborn", "Scikit-learn"],
-    },
-    {
-      projectName: "Amazon Web Scraping",
-      image: "images/web-scraping.png",
-      summary:
-        "<strong>Amazon Price Tracker</strong>:<br> Automated the process of monitoring product prices on Amazon. Web scraping was used to extract price and product information, which was stored in a CSV file. The tool sends email alerts when prices drop below a specified threshold, ensuring users never miss a deal.",      preview: "https://github.com/daththeanalyst/Amazon-Web-Scraping-Project", // GitHub link
-      techStack: ["Python", "BeautifulSoup", "Requests", "Pandas"],
-    },
-    {
-      projectName: "Stock Forecast Analysis",
-      image: "images/stock-app.png",
-      summary:
-        "<strong>Stock Forecast Analysis</strong>:<br>Conducted an in-depth analysis of Apple's stock price using historical data from Yahoo Finance. Applied feature engineering techniques and trained an LSTM-based deep learning model to predict future stock prices. Evaluated model performance using RMSE (3.4) and visualized predicted vs actual prices to assess accuracy.",
-      preview: "https://github.com/daththeanalyst/stock-forecast-analysis", // GitHub link
-      techStack: ["Python", "TensorFlow", "Keras", "LSTM", "yfinance", "Pandas", "Matplotlib"],
+        "<strong>Digital Presence & Brand Deployment</strong>:<br> Deployed a responsive corporate front-end and a personal portfolio ecosystem. Managed the full CI/CD deployment lifecycle via <strong>GitHub Pages</strong>, focusing on mobile-first UI and professional brand establishment.",
+      preview: "https://daththeanalyst.github.io/Portfolio-Dath/", 
+      techStack: ["HTML5", "CSS3", "JavaScript", "GitHub Pages", "Git"],
     },
   ],
 };
