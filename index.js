@@ -83,82 +83,60 @@ function populateCertifications(items, id) {
 
 
 /**
- * Populates projects to the HTML page.
- * @param {Array} items - An array of project objects.
- * @param {string} id - The target HTML element ID.
+ * Populates a unified grid of projects to the HTML page.
+ * @param {Array} items - An array of project objects from data.js
+ * @param {string} id - The ID of the container (e.g., "unified-projects-grid")
  */
 function populateProjects(items, id) {
-    let projectdesign = document.getElementById(id);
-  
-    let h4 = document.createElement("h4");
-    h4.className = "project-heading";
-  
-    let a = document.createElement("a");
-    a.target = "_blank";
-  
-    let img = document.createElement("img");
-    img.className = "img-fluid";
-  
-    let divResumeContentLeft = document.createElement("div");
-    divResumeContentLeft.className = "resume-content";
-    divResumeContentLeft.id = "left-div";
-    divResumeContentLeft.style.float = "right"; // Align the image to the right
-    divResumeContentLeft.append(img);
+  const projectContainer = document.getElementById(id);
+  if (!projectContainer) return;
 
-  
-    let divResumeContentRight = document.createElement("div");
-    divResumeContentRight.className = "resume-content";
-    divResumeContentRight.id = "right-div";
-  
-    let p = document.createElement("p");
-    p.className = "project-description";
-  
-    let divSpan = document.createElement("div");
-  
-    let divSubHeading = document.createElement("div");
-    divSubHeading.className = "sub-heading";
-    divSubHeading.append(p);
-    divSubHeading.append(divSpan);
-    divResumeContentRight.append(divSubHeading);
-  
-    let divResumeItem = document.createElement("div");
-    divResumeItem.className = "resume-item";
-    divResumeItem.append(divResumeContentLeft);
-    divResumeItem.append(divResumeContentRight);
-    a.append(divResumeItem);
-  
-    let divProjectCard = document.createElement("div");
-    divProjectCard.className = "project-card";
-    divProjectCard.append(a);
-  
-    let li = document.createElement("li");
-    li.append(divProjectCard);
-  
-    let hr = document.createElement("hr");
-  
-    for (let i = 0; i < items.length; i++) {
-      h4.innerHTML = items[i].projectName;
-      a.href = items[i].preview;
-  
-      img.src = items[i].image;
-  
-      p.innerHTML = items[i].summary;
-  
-      divSpan.innerHTML = "";
-      for (let k = 0; k < items[i].techStack.length; k++) {
-        let span = document.createElement("span");
-        span.className = "badge badge-secondary";
-        span.innerHTML = items[i].techStack[k];
-        divSpan.append(span);
-      }
-  
-      projectdesign.append(li.cloneNode(true));
-  
-      if (i != items.length - 1) {
-        projectdesign.append(hr.cloneNode(true));
-      }
-    }
-  }
+  // Clear existing content in case of re-render
+  projectContainer.innerHTML = "";
+
+  items.forEach((project) => {
+    // Create the column wrapper (Bootstrap grid)
+    const col = getElement("div", "col-md-6 col-lg-4 animate-box");
+    col.setAttribute("data-animate-effect", "fadeInLeft");
+
+    // Create the Card
+    const card = getElement("div", "project-card");
+
+    // Image
+    const img = getElement("img", "");
+    img.src = project.image;
+    img.alt = project.projectName;
+
+    // Title
+    const title = getElement("h3", "");
+    title.innerHTML = project.projectName;
+
+    // Summary
+    const summary = getElement("p", "");
+    summary.innerHTML = project.summary;
+
+    // Tech Stack Container
+    const techStackDiv = getElement("div", "tech-stack");
+    project.techStack.forEach((tech) => {
+      const span = getElement("span", "tag");
+      span.innerHTML = tech;
+      techStackDiv.append(span);
+    });
+
+    // Link/Button
+    const btn = getElement("a", "btn-custom");
+    btn.href = project.preview;
+    btn.target = "_blank";
+    btn.innerHTML = "View Project";
+
+    // Assemble the card
+    card.append(img, title, summary, techStackDiv, btn);
+    col.append(card);
+    
+    // Final injection
+    projectContainer.append(col);
+  });
+}
 
 function populateExp_Edu(items, id) {
     let mainContainer = document.getElementById(id);
