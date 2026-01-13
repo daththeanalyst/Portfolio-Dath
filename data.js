@@ -86,17 +86,30 @@ export const education = [
   {
     title: "UCL School of Management",
     duration: "September 2025 - September 2026",
-    subtitle: "MSc in Business Analytics",
-    details: ["Focused on advanced predictive modelling, data engineering, and machine learning."],
-    tags: ["Predictive Modelling", "Machine Learning", "Data Engineering"],
+    subtitle: "MSc Business Analytics",
+    details: [
+      "Current Average: 81% (Distinction).",
+      "Elective Specialisation: Data Engineering (Docker, AWS, Git, SQL, Linux, MLOPs) & Machine Learning (Linear Algebra, PCA).",
+      "Core Modules: Business Strategy, Marketing & Operations Analytics, Statistical Foundations, and Predictive Analytics.",
+    ],
+    tags: [
+      "Distinction (81%)",
+      "Data Engineering",
+      "Machine Learning",
+      "AWS / Docker",
+    ],
     icon: "graduation-cap",
   },
   {
     title: "Henley Business School",
     duration: "September 2022 - June 2025",
-    subtitle: "BSc Business Management (Data Analytics)",
-    details: ["Grade: 1st Class Honours.", "President & Co-Founder of Data Analytics Society"],
-    tags: ["Machine Learning", "Data Analytics"],
+    subtitle: "BSc Business Management (Data Analytics & Digital Business)",
+    details: [
+      "Grade: First Class Honours.",
+      "Relevant Courses: Machine Learning, Data Analytics, Information Systems, Business Analytics.",
+      "Co-Founder & President of Data Analytics Society: Led student skill-building events and professional networking.",
+    ],
+    tags: ["1st Class Honours", "Data Analytics", "Leadership"],
     icon: "graduation-cap",
   },
 ];
